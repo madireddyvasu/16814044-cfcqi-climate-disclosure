@@ -1,23 +1,38 @@
 # Verified annual-report corpus
 
-This directory is reserved for the **80 verified consolidated group annual reports** used in the study (40 firms × two reporting cycles). The PDFs should be stored with Git LFS using the exact relative paths recorded in `data/source_register/Vasu_Master_Annual_Report_Register.csv`.
+This directory contains the **80 verified consolidated-group annual reports** used in the study: 40 firms across two reporting cycles.
 
-## Verification controls
+The PDFs are stored under `corpus/annual_reports/` using **Git Large File Storage (Git LFS)** and the exact sector/company paths recorded in `CORPUS_MANIFEST.csv`.
 
-- 80 requested / 80 verified reports
-- 80 unique SHA-256 hashes
-- wrong-year, partial and duplicate first-pass files rejected before analysis
-- company, reporting period, consolidated-group status and report completeness checked
-- special-period cases (including Mobico and Tesco) documented in the source register and sensitivity analysis
+## Verification status
 
-## Add the corpus
+- Requested reports: **80**
+- PDFs present: **80**
+- SHA-256 matches: **80/80**
+- Missing reports: **0**
+- Hash mismatches: **0**
+- Unique verified reports: **80**
+- Total source corpus: approximately **1.00 GB**
+- Corpus audit: **PASS**
+
+Wrong-year, partial, truncated and duplicate first-pass files were rejected before the frozen corpus was created. Reporting-period boundary cases, including Mobico and Tesco, are documented in the source register and robustness analysis.
+
+## Verify after cloning
+
+Install Git LFS before cloning or pulling the corpus:
 
 ```bash
 git lfs install
-git lfs track "corpus/annual_reports/**/*.pdf"
-# Copy the Drive corpus into corpus/annual_reports preserving its sector/company folders
-git add .gitattributes corpus/annual_reports data/source_register
-git commit -m "Add verified annual-report corpus via Git LFS"
+git clone https://github.com/madireddyvasu/16814044-cfcqi-climate-disclosure.git
+cd 16814044-cfcqi-climate-disclosure
+git lfs pull
+python scripts/verify_corpus.py
 ```
 
-The repository source register is the authoritative map between each `Report_ID`, the local PDF path and its SHA-256 digest.
+The verification script checks every PDF against the frozen SHA-256 digest in `CORPUS_MANIFEST.csv`.
+
+The source register is the authoritative map between each `Report_ID`, company, reporting cycle, local PDF path and hash.
+
+## Rights notice
+
+The annual reports remain copyright of their respective issuers. They are retained here as source material for academic reproducibility. The repository's code licence does not relicense those corporate publications.
