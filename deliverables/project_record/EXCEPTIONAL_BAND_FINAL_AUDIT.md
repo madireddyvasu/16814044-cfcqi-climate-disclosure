@@ -1,0 +1,36 @@
+**COVENTRY UNIVERSITY**
+
+**Route 1 Exceptional-Band (80–100) Final Audit**
+
+*Mapped against Coventry University 7015SOM marking criteria*
+
+Vasu Deva Rao Madireddy | Student ID 16814044 | MSc Business Analytics | 7015SOM
+
+The assignment brief defines one Exceptional band covering 80–100. This audit does not predict or guarantee a mark; it checks whether the final dissertation makes each published descriptor visible and defensible.
+
+| Criterion | Exceptional expectation | Evidence in final paper | Location | Audit status |
+|---|---|---|---|---|
+| Introduction, research question, aim and objectives | Exceptionally clear, original, Business Analytics aligned; precise, feasible and challenging; convincing scope/rationale/business relevance. | Financial-connectivity problem is distinguished from generic climate disclosure; pre-UK SRS baseline is justified; CFCQI translates unstructured reports into auditable analytical variables; aim, objectives and three RQs are aligned. | Ch.1 | Met |
+| Literature review | Exceptional critical engagement with current academic/practitioner literature; synthesis leads to gap, conceptual direction and analytical focus. | Current academic, regulatory and practitioner evidence is compared rather than listed; tensions around narrative vs quantification, assurance scope, governance and sector/size effects are synthesised; measurement, explanatory and temporal gaps are explicit; TBL gives conceptual direction. | Ch.2 | Met |
+| Methodology and ethics | Rigorous, coherent, fully justified; appropriate data/selection/analytical approach; ethics, limitations, reliability, validity and responsible data use comprehensive. | Research Onion is explicit; pragmatist/deductive/mono-quant design justified; quantitative content analysis distinguished from thematic analysis; sample/report rules, CFCQI scoring, equal weighting, variables, H0/H1, OLS/diagnostics/paired tests, reliability, validity, ethics and provenance documented. | Ch.3; App. A–F | Met |
+| Findings and analysis | Sophisticated, accurate analysis linked to objectives using appropriate Business Analytics; professional tables/figures with clear explanation. | 80 reports/960 decisions; reliability; full CFCQI profile; sector/cycle results; cluster-robust OLS with CIs/controls; VIF/Breusch–Pagan/residual/Cook’s diagnostics; HC3/exclusion sensitivities; Wilcoxon/t/sign tests; complete item-change analysis; figures. | Ch.4; Apps C–G | Met |
+| Discussion, conclusions, recommendations | Excellent critical insight; links findings to literature/practice; convincing conclusions; realistic evidence-based recommendations; explicit limitations; near-professional referencing/presentation. | RQ1–RQ3 interpreted against IFRS S2/UK SRS, literature and TBL; statistical vs practical significance and alternative explanations treated; RQs directly answered; contribution separated into academic/methodological/practical; recommendations identify owner/timeframe/KPI; limitations/future research explicit. | Ch.5–6 | Met |
+| Overall achievement | Highly independent, coherent postgraduate work showing analytical judgement, critical thinking and professional academic presentation. | Coherent argument problem → gap → theory → methodology → results → discussion → action; verified references; abbreviations; appendices; evidence provenance; commented/reproducible technical package; final QA completed. | Whole dissertation | Met |
+
+# Quantitative QA checks
+
+| Check | Final state | Status |
+|---|---|---|
+| Approved route | Route 1 – Research-based Dissertation | Pass |
+| Main sample | 40 firms × two reporting cycles = 80 firm-years | Pass |
+| Source corpus | 80 verified annual reports; 80 unique SHA-256 hashes | Pass |
+| CFCQI decisions | 960/960 item decisions populated and evidence-traced | Pass |
+| Model variables | No missing values in final regression dataset | Pass |
+| Reliability | 12-report blind scoring-stability check; pooled weighted κ = 0.631 | Pass with item-level caveat |
+| RQ2 model | Firm-clustered robust OLS + diagnostics + sensitivity models | Pass |
+| RQ3 | Latest − Prior; Wilcoxon + t-test + exact sign + exclusions | Pass |
+| Review artefacts | 0 Word comments; 0 tracked changes | Pass |
+| Accessibility | 0 high / 0 medium findings after fixes | Pass |
+| Word-count risk | Main report remains below the 10% penalty threshold under the project’s counting convention | Pass |
+
+*A marker retains academic judgement. “Met” means that the published descriptor is explicitly evidenced; it is not a guarantee of a particular numerical mark.*
