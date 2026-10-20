@@ -70,7 +70,7 @@ The frozen sample contains **40 climate-sensitive FTSE 350 firms**, each contrib
 | Agriculture, Food & Forest Products | 10 | 20 |
 | **Total** | **40** | **80** |
 
-The repository contains the **verified source manifest, report index, SHA-256 hashes and corpus verification records**. The large issuer-owned PDF files are not stored in this GitHub repository; the technical implementation works from the locked evidence and analytical datasets. The verified source-corpus audit is:
+The repository contains the **complete verified 80-report source corpus**, together with the source manifest, report index, SHA-256 hashes and corpus verification records. The original PDFs are stored under `corpus/annual_reports/` via Git Large File Storage (Git LFS). The verified source-corpus audit is:
 
 | Check | Result |
 |---|---:|
@@ -338,7 +338,7 @@ pip install -r requirements.txt
 
 ### 3. Optional local source-corpus verification
 
-If you maintain a local copy of the 80 annual reports under `corpus/annual_reports/`, run:
+After cloning with Git LFS, verify the included 80 annual reports with:
 
 ```bash
 python scripts/verify_corpus.py
@@ -431,7 +431,7 @@ These Markdown records are intentionally metadata-light and directly readable in
 
 The Python code is licensed under `LICENSE-CODE`.
 
-The company annual reports used in the research remain copyright of their respective issuers. The GitHub repository currently stores their verified manifest/hashes rather than the PDF bytes; the reports are not relicensed by this repository. See `DATA_CORPUS_NOTICE.md`.
+The company annual reports used in the research remain copyright of their respective issuers. The verified PDF bytes are included solely for academic reproducibility and are not relicensed by this repository. See `DATA_CORPUS_NOTICE.md`.
 
 ## Final technical status
 

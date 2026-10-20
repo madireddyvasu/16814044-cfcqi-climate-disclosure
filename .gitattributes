@@ -4,3 +4,4 @@
 *.csv text eol=lf
 *.py text eol=lf
 *.md text eol=lf
+corpus/annual_reports/**/*.pdf filter=lfs diff=lfs merge=lfs -text
