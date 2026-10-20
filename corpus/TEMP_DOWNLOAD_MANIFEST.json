@@ -296,6 +296,20 @@
       "title": "Antofagasta_2025_Annual_Report.pdf"
     },
     {
+      "path": "corpus/annual_reports/03_Materials_Buildings/Diploma/Diploma_2024_Annual_Report.pdf",
+      "sha256": "442bf108ef2c79e522b59ef60df924dc4e4eb8e332cb5249628e7b19f2647bcd",
+      "size": 14837666,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-e41c-8243-b580-6efe3c2f8fb1/raw?se=2026-10-20T03%3A46%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=24f33d39-f4d1-5376-aa66-364acbc36ce5&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A05%3A49Z&ske=2026-10-20T23%3A05%3A49Z&sks=b&skv=2026-02-06&sig=HQD8u5wIif1%2Bts9NeMnJXn1g0rf39ZmfvjyNLvb7Jzk%3D",
+      "title": "Diploma_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/Diploma/Diploma_2025_Annual_Report.pdf",
+      "sha256": "5ceda4a9ae1971bb6af948a58f018f938989c5855d5c07766824c6cb5ce4a223",
+      "size": 11682252,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-63c4-8243-9445-6b1279c7db05/raw?se=2026-10-20T03%3A46%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=36229267-98fe-52ee-bf8f-2e9f5c848d35&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A06%3A23Z&ske=2026-10-20T23%3A06%3A23Z&sks=b&skv=2026-02-06&sig=yRpIVtBmdTKODwiRAErROoGpxbwJRabbCS%2B9qmqggdo%3D",
+      "title": "Diploma_2025_Annual_Report.pdf"
+    },
+    {
       "path": "corpus/annual_reports/03_Materials_Buildings/EndeavourMining/EndeavourMining_2024_Annual_Report.pdf",
       "sha256": "ea07d400ca179e9e71d5084bbac62d0bbfb93fecb1130bbc76e4647d63741267",
       "size": 11928004,
@@ -338,6 +352,20 @@
       "title": "Glencore_2025_Annual_Report.pdf"
     },
     {
+      "path": "corpus/annual_reports/03_Materials_Buildings/IMI/IMI_2024_Annual_Report.pdf",
+      "sha256": "14b6a22efa7d20f4df82ebfc527b670ac161d5e95f9453ee4c00d5d4d9cb2072",
+      "size": 8847890,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-788c-81f4-9aef-a47ada77a8cd/raw?se=2026-10-20T03%3A46%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=af9752c9-46cf-5c95-8b6d-fbf4b7608d0d&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A57%3A58Z&ske=2026-10-20T22%3A57%3A58Z&sks=b&skv=2026-02-06&sig=dVsWTrR7qItvoOln2nr9boDlJXdj6wrjzkfQNMYsw08%3D",
+      "title": "IMI_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/IMI/IMI_2025_Annual_Report.pdf",
+      "sha256": "4c71fe91c2ed8abea20026f842d46bfe452225696e9c91e5f41c8f0007b10749",
+      "size": 10681337,
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-6f2c-8246-95ab-4209e0c6481f/raw?se=2026-10-20T03%3A46%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=49049591-f950-56a3-a7ac-5592bc0a505b&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A58%3A03Z&ske=2026-10-20T22%3A58%3A03Z&sks=b&skv=2026-02-06&sig=MzvgBYBKsPZs49ZmfJ8S0Hd29QUFc9xDbDGDFH%2B/HGA%3D",
+      "title": "IMI_2025_Annual_Report.pdf"
+    },
+    {
       "path": "corpus/annual_reports/03_Materials_Buildings/RioTinto/RioTinto_2024_Annual_Report.pdf",
       "sha256": "9395d60945f16c7191c252550af39ac0874d765727ef12692bf05ac5ce119115",
       "size": 17258854,
@@ -350,7 +378,49 @@
       "size": 12145428,
       "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-9e90-81f4-99d3-6784ff3ad6f5/raw?se=2026-10-20T03%3A45%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=a0bf2452-c504-5307-ae13-44b408982567&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A21Z&ske=2026-10-20T23%3A08%3A21Z&sks=b&skv=2026-02-06&sig=KfnGkSuVE0c0lJEiXUhpF%2BIFwsuT23ghxcuQBeI792E%3D",
       "title": "RioTinto_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/SmithsGroup/SmithsGroup_2024_Annual_Report.pdf",
+      "sha256": "7eb959f35bd6e309f9f5031a8c06e14dc4f2f22f20bdb49383791805e78d9eee",
+      "size": 7731267,
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-1da0-8246-9bcc-97f462c7f721/raw?se=2026-10-20T03%3A46%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=84483891-d0ee-52fe-b2fe-0170a252c618&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A06%3A25Z&ske=2026-10-20T23%3A06%3A25Z&sks=b&skv=2026-02-06&sig=4QnDdb4HgVqvw/3HAjJK/GOHILqCjEhgjHw/f/erxoA%3D",
+      "title": "SmithsGroup_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/SmithsGroup/SmithsGroup_2025_Annual_Report.pdf",
+      "sha256": "4cd396e2cc8a6d0f46a0bc878f3cacc8ea378149f29284b6a7a6095413b7a09c",
+      "size": 7871661,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-74b0-81f4-919b-14761d21774f/raw?se=2026-10-20T03%3A46%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=3ab9f692-cbdc-504b-b582-f15c670e7aeb&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A55%3A55Z&ske=2026-10-20T22%3A55%3A55Z&sks=b&skv=2026-02-06&sig=2v5TkAE5Rx9cuTG9iYew41BLi%2BgOcyt7b%2BHKtjKtSks%3D",
+      "title": "SmithsGroup_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/SpiraxSarco/SpiraxSarco_2024_Annual_Report.pdf",
+      "sha256": "2ae036c66ac5e3c32de09a97ede35908b66c5fbc66cc4fb9852834dfbaf264f5",
+      "size": 11956466,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-1e20-8243-b739-3bd8eec5f25f/raw?se=2026-10-20T03%3A46%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=19a75ec3-c4ed-5c78-946a-4f2c66ab2ec6&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A10%3A30Z&ske=2026-10-20T23%3A10%3A30Z&sks=b&skv=2026-02-06&sig=ogapJik1o8z2YYmG1FGJ/xvaE7g2pNaYzf1CpuN6B8Q%3D",
+      "title": "SpiraxSarco_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/SpiraxSarco/SpiraxSarco_2025_Annual_Report.pdf",
+      "sha256": "6e0e36ce3027399d16f7a260ac474186a73d30ab670e5e1533e7259d1e060bbb",
+      "size": 15431795,
+      "url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-3240-820a-bd56-554a8da236f5/raw?se=2026-10-20T03%3A46%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=78ab62bc-bb3c-5a4b-9e42-cb9d613621f0&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A55%3A46Z&ske=2026-10-20T22%3A55%3A46Z&sks=b&skv=2026-02-06&sig=gRN3Vp%2BUgPU3VkFpjTjC03H/8DSuMd0F3GFWmcWwwag%3D",
+      "title": "SpiraxSarco_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/WeirGroup/WeirGroup_2024_Annual_Report.pdf",
+      "sha256": "19b17d0e8fe68226cf006a570d0bef76fdfd2b18fbba557ae166b1b23195d52d",
+      "size": 19389765,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-d660-8243-b238-fa10942dadec/raw?se=2026-10-20T03%3A46%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=4d8e236f-88eb-5fd4-8302-2e98547772bf&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A10Z&ske=2026-10-20T23%3A00%3A10Z&sks=b&skv=2026-02-06&sig=fGYJlFwoz2AimvV2oXHhQ5JYMDJ3YNfYSjK2ObNL%2BiA%3D",
+      "title": "WeirGroup_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/03_Materials_Buildings/WeirGroup/WeirGroup_2025_Annual_Report.pdf",
+      "sha256": "45be27ff11794d072d53af37805912a1c6154171e181a887b9c471aa8ede8f39",
+      "size": 18662398,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-032c-81f4-8900-090537335afd/raw?se=2026-10-20T03%3A46%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=802bad73-3fed-512a-ae6a-7823b4872945&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A50%3A00Z&ske=2026-10-20T21%3A50%3A00Z&sks=b&skv=2026-02-06&sig=w3%2B0ScHx7SbvsEonJpVj8zunKoyi3ACY9d%2BtX3ZzKyw%3D",
+      "title": "WeirGroup_2025_Annual_Report.pdf"
     }
   ],
-  "count": 50
+  "count": 60
 }
