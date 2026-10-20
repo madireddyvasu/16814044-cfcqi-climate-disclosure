@@ -1,0 +1,41 @@
+firm_id,firm_name,ticker,tcfd_group,mcap_usd_bn,mcap_asof,report_T,report_T1,coder,status,notes
+F001,Shell plc,SHEL,Energy,278.03,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F002,BP plc,BP,Energy,115.92,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F003,National Grid plc,NG,Energy,77.26,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,
+F004,SSE plc,SSE,Energy,39.85,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,
+F005,Centrica plc,CNA,Energy,8.87,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F006,DCC plc,DCC,Energy,7.28,Sep 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,
+F007,Ithaca Energy plc,ITH,Energy,6.00,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F008,Harbour Energy plc,HBR,Energy,5.90,Sep 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F009,Drax Group plc,DRX,Energy,3.60,Sep 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F010,Energean plc,ENOG,Energy,1.75,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Close call: beat Diversified Energy ($0.98B) for 10th spot
+F011,International Consolidated Airlines Group SA,IAG,Transportation,25.79,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F012,easyJet plc,EZJ,Transportation,6.72,Oct 2026,FY2025 (Sep YE),FY2024 (Sep YE),,selected,
+F013,Inchcape plc,INCH,Transportation,3.48,Sep 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Auto distribution — TCFD automobiles value chain
+F014,Clarkson plc,CKN,Transportation,2.07,Sep 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Shipping services — TCFD maritime transportation
+F015,Wizz Air Holdings plc,WIZZ,Transportation,1.44,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,
+F016,Zigup plc,ZIG,Transportation,1.32,Oct 2026,FY2025/26 (Apr YE),FY2024/25 (Apr YE),,selected,Vehicle rental/leasing — verify period at download
+F017,FirstGroup plc,FGP,Transportation,1.28,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,
+F018,Aston Martin Lagonda Global Holdings plc,AML,Transportation,0.47,Sep 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Auto manufacturing — TCFD automobiles
+F019,Mobico Group plc,MCG,Transportation,0.19,Sep 2026,15m to 31 Mar 2026 (year-end change),FY2024 (Dec YE),,selected,"T is a 15-month period (year-end changed Dec->Mar); figures used as reported, not annualised."
+F020,Rio Tinto plc,RIO,Materials and Buildings,155.95,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F021,Glencore plc,GLEN,Materials and Buildings,86.20,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F022,Anglo American plc,AAL,Materials and Buildings,59.05,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F023,Antofagasta plc,ANTO,Materials and Buildings,50.10,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F024,Fresnillo plc,FRES,Materials and Buildings,27.08,Sep 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F025,Endeavour Mining plc,EDV,Materials and Buildings,13.44,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,
+F026,Diploma plc,DPLM,Materials and Buildings,13.98,Oct 2026,FY2025 (Sep YE),FY2024 (Sep YE),,selected,Capital goods — industrial distribution
+F027,Smiths Group plc,SMIN,Materials and Buildings,10.53,Oct 2026,FY2025 (Jul YE),FY2024 (Jul YE),,selected,"FY2026 AR not published as of 2026-10-07 (only FY2025 AR + FY2026 results); T=FY2025, T1=FY2024 are the two most recent consecutive ARs available"
+F028,IMI plc,IMI,Materials and Buildings,9.81,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Capital goods — industrial engineering
+F029,Weir Group plc,WEIR,Materials and Buildings,9.17,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Capital goods — mining equipment
+F030,Spirax-Sarco Engineering plc,SPX,Materials and Buildings,7.20,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Capital goods — 11th pick after Transport rebalance; beat Croda ($6.19B)
+F031,Diageo plc,DGE,Agriculture Food and Forest Products,47.14,Oct 2026,FY2026 (Jun YE),FY2025 (Jun YE),,selected,Beverages — verify FY2026 AR published at download
+F032,Tesco plc,TSCO,Agriculture Food and Forest Products,38.85,Oct 2026,FY2025/26 (Feb YE),FY2024/25 (Feb YE),,selected,Food retail — TCFD food value chain
+F033,Coca-Cola HBC AG,CCH,Agriculture Food and Forest Products,20.49,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Beverages
+F034,Associated British Foods plc,ABF,Agriculture Food and Forest Products,16.99,Oct 2026,FY2025 (Sep YE),FY2024 (Sep YE),,selected,Packaged foods
+F035,Marks and Spencer Group plc,MKS,Agriculture Food and Forest Products,10.59,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,Food retail
+F036,J Sainsbury plc,SBRY,Agriculture Food and Forest Products,9.30,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,Food retail
+F037,Mondi plc,MNDI,Agriculture Food and Forest Products,4.65,Oct 2026,FY2025 (Dec YE),FY2024 (Dec YE),,selected,Paper & forest products per TCFD
+F038,Cranswick plc,CWK,Agriculture Food and Forest Products,3.53,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,Packaged foods
+F039,Tate & Lyle plc,TATE,Agriculture Food and Forest Products,3.29,Oct 2026,FY2025/26 (Mar YE),FY2024/25 (Mar YE),,selected,Food ingredients
+F040,Ocado Group plc,OCDO,Agriculture Food and Forest Products,2.91,Oct 2026,FY2025 (Nov YE),FY2024 (Nov YE),,selected,Food retail/tech — beat Premier Foods ($2.14B) for 10th spot

@@ -1,0 +1,13 @@
+item,label,mean,pct_0,pct_1,pct_2
+item2,Current financial position,0.34,77.5,11.2,11.2
+item1,Current financial performance,0.44,68.8,18.8,12.5
+item3,Current cash flows,0.51,72.5,3.8,23.8
+item9,"Provisions, contingencies & commitments",0.55,57.5,30.0,12.5
+item5,Anticipated future financial position,0.98,27.5,47.5,25.0
+item6,Anticipated future cash flows,0.99,28.7,43.8,27.5
+item7,Capital expenditure / allocation,1.11,20.0,48.8,31.2
+item10,Carbon pricing / ETS / regulatory costs,1.16,22.5,38.8,38.8
+item4,Anticipated future financial performance,1.44,0.0,56.2,43.8
+item8,Asset valuations & impairment,1.5,3.8,42.5,53.8
+item12,Quantified scenario analysis,1.6,2.5,35.0,62.5
+item11,Financial planning integration,1.81,2.5,13.8,83.8

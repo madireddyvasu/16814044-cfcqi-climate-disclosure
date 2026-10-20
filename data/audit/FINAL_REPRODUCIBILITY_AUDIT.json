@@ -1,0 +1,14 @@
+{
+  "rows": 80,
+  "firms": 40,
+  "cycle_T": 40,
+  "cycle_T1": 40,
+  "evidence_decisions": 960,
+  "source_reports": 80,
+  "unique_hashes": 80,
+  "missing_items": 0,
+  "formula_mismatches": 0,
+  "cfcqi_formula_mismatches": 0,
+  "issues": [],
+  "all_pass": true
+}

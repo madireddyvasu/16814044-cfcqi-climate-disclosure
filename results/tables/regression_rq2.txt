@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  cfcqi   R-squared:                       0.478
+Model:                            OLS   Adj. R-squared:                  0.410
+Method:                 Least Squares   F-statistic:                     5.531
+Date:                Tue, 20 Oct 2026   Prob (F-statistic):           6.73e-05
+Time:                        02:04:44   Log-Likelihood:                -321.12
+No. Observations:                  80   AIC:                             662.2
+Df Residuals:                      70   BIC:                             686.1
+Df Model:                           9                                         
+Covariance Type:              cluster                                         
+============================================================================================================
+                                               coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                  -28.6037     18.803     -1.521      0.128     -65.457       8.250
+C(tcfd_group)[T.Energy]                     11.8600      5.779      2.052      0.040       0.533      23.187
+C(tcfd_group)[T.Materials and Buildings]     1.1639      5.909      0.197      0.844     -10.418      12.746
+C(tcfd_group)[T.Transportation]              6.0707      6.757      0.898      0.369      -7.172      19.314
+C(cycle)[T.T1]                               0.6655      1.929      0.345      0.730      -3.115       4.446
+size                                         4.5972      1.949      2.359      0.018       0.777       8.417
+assurance                                   11.1711      8.433      1.325      0.185      -5.358      27.700
+board_oversight                             23.7633      5.247      4.529      0.000      13.479      34.047
+leverage                                     8.4677     15.773      0.537      0.591     -22.448      39.383
+roa                                         49.5743     24.334      2.037      0.042       1.880      97.269
+==============================================================================
+Omnibus:                        3.078   Durbin-Watson:                   1.514
+Prob(Omnibus):                  0.215   Jarque-Bera (JB):                2.061
+Skew:                          -0.191   Prob(JB):                        0.357
+Kurtosis:                       2.312   Cond. No.                         173.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)

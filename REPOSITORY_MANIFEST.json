@@ -1,0 +1,14 @@
+{
+  "project": "CFCQI Financially Connected Climate Disclosure",
+  "student": "Vasu Deva Rao Madireddy",
+  "student_id": "16814044",
+  "firms": 40,
+  "reports": 80,
+  "cfcqi_decisions": 960,
+  "repo_version": "1.0.0",
+  "corpus_included": false,
+  "corpus_strategy": "manifest + SHA-256 verification records; source PDFs kept outside GitHub",
+  "analysis_frozen": true,
+  "scope": "technical implementation, verified corpus, datasets, evidence, analysis, results and reproducibility documentation",
+  "excluded": "assessment and Word submission documents"
+}

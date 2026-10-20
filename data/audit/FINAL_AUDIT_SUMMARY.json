@@ -1,0 +1,14 @@
+{
+  "rows": 80,
+  "firms": 40,
+  "evidence_decisions": 960,
+  "source_reports": 80,
+  "cfcqi_mean": 51.766,
+  "cfcqi_sd": 18.653,
+  "rq2_r2": 0.478,
+  "h1_p": 0.018339545549286466,
+  "h2_p": 0.18529278689587791,
+  "h3_p": 5.92705256589826e-06,
+  "reliability_kappa": 0.631,
+  "validation_all_pass": true
+}

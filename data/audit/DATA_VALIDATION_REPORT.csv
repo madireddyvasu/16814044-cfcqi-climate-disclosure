@@ -1,0 +1,15 @@
+check,observed,expected,status
+Rows in locked dataset,80,80,PASS
+Unique firms,40,40,PASS
+T observations,40,40,PASS
+T1 observations,40,40,PASS
+Duplicate firm-cycle rows,0,0,PASS
+Missing CFCQI item values,0,0,PASS
+Invalid CFCQI item values,0,0,PASS
+Raw-score formula mismatches,0,0,PASS
+CFCQI formula mismatches,0,0,PASS
+Missing model variables,0,0,PASS
+Evidence rows,960,960,PASS
+Non-zero evidence without page,0,0,PASS
+Unique report hashes,80,80,PASS
+Included verified reports,80,80,PASS

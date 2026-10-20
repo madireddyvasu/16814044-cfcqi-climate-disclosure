@@ -1,0 +1,14 @@
+item,label,n,pct_agreement,weighted_kappa
+item1,Current financial performance,12,50.0,-0.286
+item2,Current financial position,12,75.0,-0.091
+item3,Current cash flows,12,91.7,0.625
+item4,Anticipated future financial performance,12,75.0,0.438
+item5,Anticipated future financial position,12,41.7,0.2
+item6,Anticipated future cash flows,12,66.7,0.351
+item7,Capital expenditure / allocation,12,83.3,0.556
+item8,Asset valuations & impairment,12,75.0,0.757
+item9,"Provisions, contingencies & commitments",12,58.3,0.368
+item10,Carbon pricing / ETS / regulatory costs,12,58.3,0.5
+item11,Financial planning integration,12,75.0,0.25
+item12,Quantified scenario analysis,12,50.0,0.0
+ALL,pooled across items,144,66.7,0.631

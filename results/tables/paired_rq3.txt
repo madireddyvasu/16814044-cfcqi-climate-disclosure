@@ -1,0 +1,21 @@
+Cycles compared: Prior (T1) -> Latest (T) (n firms = 40)
+Mean change (Latest - Prior) in CFCQI: -0.003 (SD = 10.29; median = 0.00)
+Improved / unchanged / deteriorated firms: 12 / 20 / 8
+Cohen's dz = -0.000
+Shapiro p=0.0001; primary test=wilcoxon: statistic=101.500, p=0.8959
+Exact sign test excluding ties: p=0.5034
+
+Item-level change (positive = improvement in latest cycle):
+  item                                    label  mean_latest  mean_prior  mean_change_latest_minus_prior  pct_improved  pct_unchanged  pct_deteriorated
+ item1            Current financial performance         0.48        0.40                            0.08          12.5           80.0               7.5
+ item2               Current financial position         0.38        0.30                            0.08           5.0           95.0               0.0
+ item3                       Current cash flows         0.55        0.48                            0.08          12.5           80.0               7.5
+ item4 Anticipated future financial performance         1.40        1.48                           -0.08           2.5           87.5              10.0
+ item5    Anticipated future financial position         0.95        1.00                           -0.05           5.0           85.0              10.0
+ item6            Anticipated future cash flows         0.98        1.00                           -0.02           2.5           92.5               5.0
+ item7         Capital expenditure / allocation         1.15        1.08                            0.08          10.0           85.0               5.0
+ item8            Asset valuations & impairment         1.45        1.55                           -0.10           0.0           92.5               7.5
+ item9  Provisions, contingencies & commitments         0.52        0.57                           -0.05           0.0           95.0               5.0
+item10  Carbon pricing / ETS / regulatory costs         1.18        1.15                            0.02           7.5           90.0               2.5
+item11           Financial planning integration         1.80        1.82                           -0.02           0.0           97.5               2.5
+item12             Quantified scenario analysis         1.60        1.60                            0.00           7.5           85.0               7.5

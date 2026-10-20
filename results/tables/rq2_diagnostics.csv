@@ -1,0 +1,5 @@
+diagnostic,value,interpretation
+Breusch-Pagan LM p-value,0.04381029234282523,Heteroscedasticity indicated at 5%; robust/clustered inference retained.
+Shapiro-Wilk residual p-value,0.2918045678963729,Residual normality not rejected at 5%.
+Cook threshold 4/n,0.05,6 firm-year observations above threshold.
+Maximum VIF,1.9308893961004314,Multicollinearity not a material concern.

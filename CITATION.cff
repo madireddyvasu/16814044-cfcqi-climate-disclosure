@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Quantified and Financially Connected Climate Disclosure in Climate-Sensitive FTSE 350 Firms"
+message: "If you use the code, scoring framework or derived dataset, please cite this repository."
+type: software
+authors:
+  - family-names: "Madireddy"
+    given-names: "Vasu Deva Rao"
+version: "1.0.0"
+date-released: "2026-10-20"
+keywords:
+  - climate disclosure
+  - business analytics
+  - FTSE 350
+  - quantitative content analysis
+  - CFCQI
+  - reproducibility

@@ -1,0 +1,2 @@
+n_reports,item_decisions,pooled_exact_agreement_pct,pooled_weighted_kappa,mean_item_kappa,median_item_kappa,total_cfcqi_pearson_r,total_cfcqi_spearman_r,mean_abs_cfcqi_difference,max_abs_cfcqi_difference
+12,144,66.7,0.631,0.30566666666666664,0.3595,0.502206587336034,0.47688040643978763,10.763888888888886,33.33333333333333

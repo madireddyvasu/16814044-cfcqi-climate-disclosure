@@ -1,0 +1,43 @@
+RQ2 DIAGNOSTICS AND ROBUSTNESS
+========================================================================
+Base model n=80, firms=40, R2=0.478
+Max VIF=1.93
+Breusch-Pagan p=0.0438
+Shapiro residual p=0.2918
+Cook threshold=0.0500; flagged=6
+
+Base pooled
+  H1 size: beta=4.60, p=0.0183, n=80
+  H2 assurance: beta=11.17, p=0.1853, n=80
+  H3 board_oversight: beta=23.76, p=0.0000, n=80
+
+Exclude Mobico F019
+  H1 size: beta=4.56, p=0.0226, n=78
+  H2 assurance: beta=11.09, p=0.1907, n=78
+  H3 board_oversight: beta=23.95, p=0.0000, n=78
+
+Exclude Tesco F032
+  H1 size: beta=4.82, p=0.0169, n=78
+  H2 assurance: beta=11.28, p=0.1846, n=78
+  H3 board_oversight: beta=24.32, p=0.0000, n=78
+
+Exclude Mobico + Tesco
+  H1 size: beta=4.79, p=0.0209, n=76
+  H2 assurance: beta=11.18, p=0.1905, n=76
+  H3 board_oversight: beta=24.51, p=0.0000, n=76
+
+Exclude Cook's D > 4/n
+  H1 size: beta=5.81, p=0.0000, n=74
+  H2 assurance: beta=2.15, p=0.7442, n=74
+  H3 board_oversight: beta=23.76, p=0.0000, n=74
+
+F009 governance=0
+  H1 size: beta=4.13, p=0.0421, n=80
+  H2 assurance: beta=11.69, p=0.1725, n=80
+  H3 board_oversight: beta=20.34, p=0.0004, n=80
+
+Latest-only HC3
+  H1 size: beta=4.61, p=0.0765, n=40
+  H2 assurance: beta=3.65, p=0.7507, n=40
+  H3 board_oversight: beta=25.34, p=0.0016, n=40
+
