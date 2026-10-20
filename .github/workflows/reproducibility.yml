@@ -14,5 +14,9 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
       - run: pip install -r requirements.txt
-      - run: pytest -q
-      - run: bash run_all.sh
+      - name: Build deterministic evidence audit
+        run: python scripts/08_build_evidence_audit.py
+      - name: Run tests
+        run: pytest -q
+      - name: Run full analytical pipeline
+        run: bash run_all.sh
