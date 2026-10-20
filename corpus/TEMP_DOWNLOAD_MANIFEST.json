@@ -420,7 +420,77 @@
       "size": 18662398,
       "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-032c-81f4-8900-090537335afd/raw?se=2026-10-20T03%3A46%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=802bad73-3fed-512a-ae6a-7823b4872945&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A50%3A00Z&ske=2026-10-20T21%3A50%3A00Z&sks=b&skv=2026-02-06&sig=w3%2B0ScHx7SbvsEonJpVj8zunKoyi3ACY9d%2BtX3ZzKyw%3D",
       "title": "WeirGroup_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/ABF/ABF_2024_Annual_Report.pdf",
+      "sha256": "42f6ef85a521b2340128c615903667b6e8dc5c004b7ef5c980ab137ebdbb1361",
+      "size": 12884485,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-1b5c-8243-b892-63690792d393/raw?se=2026-10-20T03%3A46%3A56Z&sp=r&sv=2026-02-06&sr=b&scid=85c4f9c3-621d-5648-8704-47fc28c662a5&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A50%3A00Z&ske=2026-10-20T21%3A50%3A00Z&sks=b&skv=2026-02-06&sig=iI%2BLaixpzV8HwLV7%2B0aPbZN35nhGghUM2UK3TPKnZYc%3D",
+      "title": "ABF_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/ABF/ABF_2025_Annual_Report.pdf",
+      "sha256": "13698a284342a1adc43d1874b5b0b24d6606aff1aaf693697b54155e59252e87",
+      "size": 13406280,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-7c9c-8243-b8b5-e0897928a7e5/raw?se=2026-10-20T03%3A46%3A57Z&sp=r&sv=2026-02-06&sr=b&scid=d089e614-f414-5502-befd-f87d93e667b0&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A52%3A10Z&ske=2026-10-20T21%3A52%3A10Z&sks=b&skv=2026-02-06&sig=8vHrZg1ASf2nrNeicE1TPIrfnT4sa3NY5i%2BKdSsgzVY%3D",
+      "title": "ABF_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/CocaColaHBC/CocaColaHBC_2024_Annual_Report.pdf",
+      "sha256": "e98fd864b3aed86a10341876c3c20b4d11f537e9fcbf02a7216a95d4e81dbcea",
+      "size": 13980191,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-f544-81f4-ae54-1d340bb16197/raw?se=2026-10-20T03%3A46%3A58Z&sp=r&sv=2026-02-06&sr=b&scid=2dbf2ed3-f4d0-5da2-9a6a-bcdaf6794b78&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A10Z&ske=2026-10-20T23%3A00%3A10Z&sks=b&skv=2026-02-06&sig=9gyT8QvBTfA1%2BIMtw2F8jiKymdGQSfs1UYL3IopZ2aU%3D",
+      "title": "CocaColaHBC_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/CocaColaHBC/CocaColaHBC_2025_Annual_Report.pdf",
+      "sha256": "b381d8a76bc27589ef3808091831efb8c193e627543939cfbceeb39651974f10",
+      "size": 14621509,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-5618-81f4-87b0-e34044a7d383/raw?se=2026-10-20T03%3A46%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=057fd004-5980-5a4b-8f92-bddd173f286e&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A55%3A55Z&ske=2026-10-20T22%3A55%3A55Z&sks=b&skv=2026-02-06&sig=yqcmqZr%2BF6sM7E9Byxdze7Gohk/qL9jJFSEHDBl6ERc%3D",
+      "title": "CocaColaHBC_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/Diageo/Diageo_2025_Annual_Report.pdf",
+      "sha256": "72d93c4305e6582a3081ece7ecde5dd2abf7e36eec5cdc9cf6710673ceb9be66",
+      "size": 15872515,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-10b0-8243-b6ca-1c396c406252/raw?se=2026-10-20T03%3A46%3A51Z&sp=r&sv=2026-02-06&sr=b&scid=8f807b36-3787-520c-bfa3-6febd294e1fa&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A58%3A03Z&ske=2026-10-20T22%3A58%3A03Z&sks=b&skv=2026-02-06&sig=/KFuwBoxYyP2raCN3p3Fo%2BkamaRPlLyBHYAAbq/G3z0%3D",
+      "title": "Diageo_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/Diageo/Diageo_2026_Annual_Report.pdf",
+      "sha256": "6d4d5596a0d3c7532be7e71030160976c88b4084217eaa5f1332b60fd1b18ac7",
+      "size": 42544946,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-55a4-81f4-a90f-0adead69e86d/raw?se=2026-10-20T03%3A46%3A57Z&sp=r&sv=2026-02-06&sr=b&scid=1f263113-f6e2-5925-b26d-433afda93e0b&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A06Z&ske=2026-10-20T23%3A00%3A06Z&sks=b&skv=2026-02-06&sig=jV/FuYoHNJTR7a%2Bkd6jRaMSisBXKVm4y50Xdm58Mp6A%3D",
+      "title": "Diageo_2026_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/MandS/MandS_2024-25_Annual_Report.pdf",
+      "sha256": "dad33c04640487b8d7e4d6e659fb8f3682b430362facf7ea86b67f528330392d",
+      "size": 8666555,
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-c664-8246-8f7e-9c950ec3d4a3/raw?se=2026-10-20T03%3A47%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=7491bfe7-57c3-5683-87d9-31928a104cf7&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A09%3A39Z&ske=2026-10-20T23%3A09%3A39Z&sks=b&skv=2026-02-06&sig=YdJBlriaxKqIw%2BLEvQGtKKPg%2BhsD9kO2wgy80ESLJ2A%3D",
+      "title": "MandS_2024-25_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/MandS/MandS_2025-26_Annual_Report.pdf",
+      "sha256": "84cbdce113fabe8354773dd0425717ffdf3e7acdfcb1411beca9021a687e21e4",
+      "size": 3651964,
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-e9f4-8246-b72a-aa0aa5d603cb/raw?se=2026-10-20T03%3A46%3A56Z&sp=r&sv=2026-02-06&sr=b&scid=b8e6b2fc-5591-55d4-878a-709116d06c16&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A33Z&ske=2026-10-20T23%3A08%3A33Z&sks=b&skv=2026-02-06&sig=Ye84QG/qSZZuJtzOvnBKmkpFZccJDO5tIeASj/eF3eI%3D",
+      "title": "MandS_2025-26_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/Tesco/Tesco_2024-25_Annual_Report.pdf",
+      "sha256": "016e77082da46c0cf319d80aa589af936452b215c7bf447d145f5866311be52c",
+      "size": 8406667,
+      "url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-18dc-820a-9927-7a0ad04bf4a9/raw?se=2026-10-20T03%3A46%3A50Z&sp=r&sv=2026-02-06&sr=b&scid=ebada014-4fab-5f99-9c50-7aa3df3a4a87&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A21Z&ske=2026-10-20T23%3A08%3A21Z&sks=b&skv=2026-02-06&sig=ySxxXFGYKUtre4NkWAtwwXD5uOssMacZdMUTQuEOuf0%3D",
+      "title": "Tesco_2024-25_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/04_Agriculture_Food_Forest/Tesco/Tesco_2025-26_Annual_Report.pdf",
+      "sha256": "7fcd56665f264d88cef3ca8aaa4661f9aec2f8ddf71ceca36e7c5b2979556387",
+      "size": 16134955,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-6f74-8243-b29b-536baaeffb16/raw?se=2026-10-20T03%3A46%3A50Z&sp=r&sv=2026-02-06&sr=b&scid=7add5416-1adb-5349-a97a-79beae03c3e2&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A54%3A21Z&ske=2026-10-20T21%3A54%3A21Z&sks=b&skv=2026-02-06&sig=4ec0z%2Bbihn3TXqCFeVMu7O3ySFSBjKGOszVlu8bVhEk%3D",
+      "title": "Tesco_2025-26_Annual_Report.pdf"
     }
   ],
-  "count": 60
+  "count": 70
 }
