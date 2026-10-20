@@ -141,7 +141,7 @@ Statistical result
 The repository contains:
 
 - `80` firm-cycle evidence notes in `evidence/`
-- `960` consolidated item decisions in `data/audit/CFCQI_EVIDENCE_AUDIT.csv`
+- `960` item decisions retained in the 80 evidence notes; `scripts/08_build_evidence_audit.py` deterministically rebuilds `data/audit/CFCQI_EVIDENCE_AUDIT.csv`
 - source validation and change-control logs in `data/audit/`
 
 ## Analytical variables
@@ -400,6 +400,24 @@ For a technical review, use this sequence:
 - `docs/12_DATA_LINEAGE.md`
 - `docs/13_PROJECT_GOVERNANCE.md`
 
+## Final dissertation and project records
+
+- [Dissertation front matter](deliverables/dissertation/00_FRONT_MATTER.md)
+- [Chapter 1 – Introduction](deliverables/dissertation/chapters/01_introduction.md)
+- [Chapter 2 – Literature Review and Theoretical Framework](deliverables/dissertation/chapters/02_literature_review_and_theoretical_framework.md)
+- [Chapter 3 – Methodology and Ethics](deliverables/dissertation/chapters/03_methodology_and_ethics.md)
+- [Chapter 4 – Results and Findings](deliverables/dissertation/chapters/04_results_and_findings.md)
+- [Chapter 5 – Discussion](deliverables/dissertation/chapters/05_discussion.md)
+- [Chapter 6 – Conclusion, Recommendations and Limitations](deliverables/dissertation/chapters/06_conclusion_recommendations_and_limitations.md)
+- [References and appendices](deliverables/dissertation/07_REFERENCES_AND_APPENDICES.md)
+- [Technical implementation report](deliverables/technical/TECHNICAL_IMPLEMENTATION_REPORT.md)
+- [Supervisor feedback resolution](deliverables/project_record/SUPERVISOR_FEEDBACK_RESOLUTION_LOG.md)
+- [Exceptional-band audit](deliverables/project_record/EXCEPTIONAL_BAND_FINAL_AUDIT.md)
+- [Reference verification log](deliverables/project_record/REFERENCE_VERIFICATION_LOG.md)
+- [Student research and defence notes](deliverables/project_record/STUDENT_RESEARCH_AND_DEFENCE_NOTES.md)
+
+These Markdown records are intentionally metadata-light and directly readable in GitHub.
+
 ## Interpretation boundaries
 
 - CFCQI measures disclosure depth, not regulatory compliance.
@@ -413,7 +431,7 @@ For a technical review, use this sequence:
 
 The Python code is licensed under `LICENSE-CODE`.
 
-The company annual reports remain copyright of their respective issuers and are included only to support source verification and reproducibility. They are not relicensed by this repository. See `DATA_CORPUS_NOTICE.md`.
+The company annual reports used in the research remain copyright of their respective issuers. The GitHub repository currently stores their verified manifest/hashes rather than the PDF bytes; the reports are not relicensed by this repository. See `DATA_CORPUS_NOTICE.md`.
 
 ## Final technical status
 
