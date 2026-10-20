@@ -1,0 +1,42 @@
+name: Bootstrap cleaned research repository
+on:
+  push:
+    paths:
+      - '.github/workflows/bootstrap-repo.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download prepared repository package
+        env:
+          PACKAGE_URL: "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-2958-8246-a017-38c08991cb2c/raw?se=2026-10-20T04%3A18%3A02Z&sp=r&sv=2026-02-06&sr=b&scid=a5d14110-0880-5ce0-9e14-c2178c621f61&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A58%3A03Z&ske=2026-10-20T22%3A58%3A03Z&sks=b&skv=2026-02-06&sig=InJktjxvuO7LVb1v5zEqkYouyG7H3uuwTkd0lV%2B40es%3D"
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 "$PACKAGE_URL" -o /tmp/cfcqi_repo.zip
+          mkdir -p /tmp/cfcqi_repo
+          unzip -q /tmp/cfcqi_repo.zip -d /tmp/cfcqi_repo
+
+      - name: Publish cleaned repository tree
+        run: |
+          set -euo pipefail
+          rsync -a /tmp/cfcqi_repo/Vasu_CFCQI_Repo_Core_FINAL/ ./
+          rm -f ACCESS_TEST.txt WRITE_TEST.txt CODE_PUSH_TEST.py
+          rm -f .github/workflows/bootstrap-repo.yml
+
+      - name: Commit repository
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: publish complete CFCQI reproducibility repository"
+          git push origin main
