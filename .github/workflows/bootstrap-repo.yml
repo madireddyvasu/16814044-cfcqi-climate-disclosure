@@ -28,15 +28,18 @@ jobs:
       - name: Publish cleaned repository tree
         run: |
           set -euo pipefail
-          rsync -a /tmp/cfcqi_repo/Vasu_CFCQI_Repo_Core_FINAL/ ./
+          rsync -a --exclude='.github/workflows/' /tmp/cfcqi_repo/Vasu_CFCQI_Repo_Core_FINAL/ ./
           rm -f ACCESS_TEST.txt WRITE_TEST.txt CODE_PUSH_TEST.py
-          rm -f .github/workflows/bootstrap-repo.yml
 
       - name: Commit repository
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "feat: publish complete CFCQI reproducibility repository"
+          git add -A -- ':!.github/workflows/**'
+          if git diff --cached --quiet; then
+            echo "No repository changes to publish."
+            exit 0
+          fi
+          git commit -m "feat: publish cleaned final CFCQI repository artefacts"
           git push origin main
