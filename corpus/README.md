@@ -1,11 +1,23 @@
-# Source corpus register
+# Verified annual-report corpus
 
-This directory contains the frozen **80-report corpus manifest**, report index, and SHA-256 verification records used by the technical implementation.
+This directory is reserved for the **80 verified consolidated group annual reports** used in the study (40 firms × two reporting cycles). The PDFs should be stored with Git LFS using the exact relative paths recorded in `data/source_register/Vasu_Master_Annual_Report_Register.csv`.
 
-The issuer-owned annual-report PDF files are not stored in this GitHub repository. If a local copy of the 80 PDFs is placed under `corpus/annual_reports/` using the relative paths in `CORPUS_MANIFEST.csv`, run:
+## Verification controls
+
+- 80 requested / 80 verified reports
+- 80 unique SHA-256 hashes
+- wrong-year, partial and duplicate first-pass files rejected before analysis
+- company, reporting period, consolidated-group status and report completeness checked
+- special-period cases (including Mobico and Tesco) documented in the source register and sensitivity analysis
+
+## Add the corpus
 
 ```bash
-python scripts/verify_corpus.py
+git lfs install
+git lfs track "corpus/annual_reports/**/*.pdf"
+# Copy the Drive corpus into corpus/annual_reports preserving its sector/company folders
+git add .gitattributes corpus/annual_reports data/source_register
+git commit -m "Add verified annual-report corpus via Git LFS"
 ```
 
-The verifier checks the local files against the exact SHA-256 digests recorded in the frozen manifest.
+The repository source register is the authoritative map between each `Report_ID`, the local PDF path and its SHA-256 digest.

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Quantified and Financially Connected Climate Disclosure in Climate-Sensitive FTSE 350 Firms"
-message: "If you use the code, scoring framework or derived dataset, please cite this repository."
+message: "If you use the code, scoring framework or derived dataset, please cite this repository and the dissertation."
 type: software
 authors:
   - family-names: "Madireddy"

@@ -1,68 +1,105 @@
 # CFCQI — Financially Connected Climate Disclosure in FTSE 350 Firms
 
-> **Technical implementation, verified source corpus, analytical datasets, reproducible Python pipeline, statistical results and robustness evidence** for an MSc Business Analytics research project at Coventry University.
+> **MSc Business Analytics research and reproducibility repository** for  
+> **_Quantified and Financially Connected Climate Disclosure in Climate-Sensitive FTSE 350 Firms: Determinants and Reporting Gaps Ahead of UK SRS S2_**
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![Firms](https://img.shields.io/badge/Firms-40-2E7D32)
 ![Reports](https://img.shields.io/badge/Verified%20reports-80-1565C0)
-![CFCQI](https://img.shields.io/badge/CFCQI%20decisions-960-6A1B9A)
-![Source register](https://img.shields.io/badge/Source%20register-80%2F80%20verified-00897B)
-![Reproducibility](https://img.shields.io/badge/Reproducibility-PASS-00897B)
+![CFCQI decisions](https://img.shields.io/badge/CFCQI%20decisions-960-6A1B9A)
+![Corpus](https://img.shields.io/badge/PDF%20corpus-80%2F80%20verified-00897B)
+![Audit](https://img.shields.io/badge/Reproducibility%20audit-PASS-00897B)
 
-## Overview
+---
 
-This repository implements the **Climate Financial Connectivity and Quantification Index (CFCQI)**, a structured Business Analytics instrument for measuring how strongly climate-related corporate disclosure is connected to financially meaningful effects.
+## 1. Project overview
 
-The technical workflow begins with **80 verified annual reports from 40 climate-sensitive FTSE 350 firms**, applies a frozen 12-item scoring framework, produces **960 evidence-backed item decisions**, builds a locked 80-row firm-year dataset, and runs descriptive analysis, reliability assessment, pooled regression, diagnostics, robustness checks and paired-cycle analysis.
+Climate reporting can be extensive without being financially connected. Many annual reports describe climate strategy, transition plans, scenarios and governance, yet provide limited information about how climate-related matters affect current or anticipated financial position, financial performance, cash flows, asset values, provisions, capital allocation or financial planning.
 
-The repository is deliberately limited to the **technical research layer**. It contains no Word submission files or assessment documents.
+This dissertation addresses that Business Analytics problem by developing the **Climate Financial Connectivity and Quantification Index (CFCQI)** and applying it to a verified two-period panel of climate-sensitive **Financial Times Stock Exchange 350 Index (FTSE 350)** firms.
 
-## Research workflow
+The repository contains the complete research chain:
+
+**annual-report PDF → verified source register → evidence note → 12 CFCQI scores → firm-year dataset → descriptive analysis → regression → diagnostics/robustness → paired-cycle analysis → dissertation findings and recommendations**
+
+The repository is intended to make the dissertation **transparent, auditable and reproducible** rather than presenting only the final written paper.
+
+---
+
+## 2. Research problem and contribution
+
+The central problem is not whether firms disclose climate information, but **whether that information is connected to financially meaningful consequences and quantified sufficiently to support decision-making**.
+
+The project contributes in three ways:
+
+1. **Measurement contribution** — a transparent 12-item CFCQI instrument converts annual-report evidence into a standardised 0–100 disclosure-depth score.
+2. **Explanatory contribution** — firm characteristics are tested as determinants of stronger financially connected disclosure.
+3. **Temporal contribution** — two consecutive reporting cycles are compared within the same firms to test whether disclosure depth changed systematically.
+
+CFCQI is a **research index**. It is not a legal-compliance score, environmental-performance score, transition-quality rating or measure of corporate climate effectiveness.
+
+---
+
+## 3. Research questions
+
+### RQ1 — Level and pattern
+**What is the level and pattern of quantified and financially connected climate disclosure among the sample across two reporting cycles?**
+
+### RQ2 — Organisational determinants
+**Which organisational characteristics are associated with higher CFCQI scores?**
+
+### RQ3 — Change over time
+**Do CFCQI scores change systematically between the prior and latest reporting cycles, and which disclosure dimensions show the largest remaining gaps?**
+
+---
+
+## 4. Hypotheses
+
+The regression component evaluates three paired null and alternative hypotheses.
+
+| Test | Null hypothesis | Alternative hypothesis |
+|---|---|---|
+| Firm size | **H01:** Firm size has no statistically significant association with CFCQI. | **H11:** Firm size is positively associated with CFCQI. |
+| External assurance | **H02:** External sustainability assurance has no statistically significant association with CFCQI. | **H12:** Firms obtaining external sustainability assurance have higher CFCQI scores. |
+| Board oversight | **H03:** Board-level sustainability/climate oversight has no statistically significant association with CFCQI. | **H13:** Firms with qualifying board-level sustainability/climate oversight have higher CFCQI scores. |
+
+---
+
+## 5. Research design
+
+The final supervisor-aligned methodology follows the **Research Onion**:
+
+**Pragmatism → Deductive approach → Mono-method quantitative → Quantitative content analysis → Two-period repeated firm-year design → Structured data collection/scoring → Statistical analysis**
 
 ```mermaid
 flowchart LR
-    A[80 verified annual-report PDFs] --> B[Full-report evidence review]
-    B --> C[Frozen 12-item CFCQI scoring framework]
-    C --> D[960 evidence-backed decisions]
+    A[80 verified annual-report PDFs] --> B[Full-report review]
+    B --> C[Frozen 12-item CFCQI codebook]
+    C --> D[960 evidence-backed scoring decisions]
     D --> E[80-row locked firm-year dataset]
     E --> F[RQ1 descriptive analytics]
     E --> G[RQ2 pooled OLS + firm-clustered SE]
     E --> H[RQ3 paired-cycle analysis]
     G --> I[Diagnostics + robustness]
     H --> I
-    I --> J[Final analytical results]
+    I --> J[Discussion, conclusions and recommendations]
 ```
 
-The methodological sequence is:
+### Why this is quantitative content analysis rather than thematic analysis
 
-**Pragmatism → Deductive approach → Mono-method quantitative → Quantitative content analysis → Two-period repeated firm-year design → Statistical analysis**
+The annual-report text is documentary evidence, but the analysis does **not** generate emergent themes. Each report is evaluated against a **predefined and frozen quantitative scoring instrument**. The evidence is converted into numerical item scores of 0, 1 or 2 and then into a standardised index. This makes the documentary review a structured **deductive quantitative content-analysis procedure**.
 
-This is **not thematic analysis**. Documentary evidence is evaluated against predefined criteria and converted into numeric item scores.
+See [`docs/03_METHODOLOGY_RESEARCH_ONION.md`](docs/03_METHODOLOGY_RESEARCH_ONION.md).
 
-## Research questions
+---
 
-### RQ1 — Disclosure level and pattern
-What is the level and pattern of quantified and financially connected climate disclosure across the sample and two reporting cycles?
+## 6. Sample and verified source corpus
 
-### RQ2 — Organisational determinants
-Which organisational characteristics are associated with higher CFCQI scores?
+### Final sample
 
-### RQ3 — Reporting-cycle change
-Do CFCQI scores change systematically between the prior and latest reporting cycles, and which disclosure dimensions show the largest remaining gaps?
+The frozen sample contains **40 climate-sensitive FTSE 350 firms**, grouped as follows:
 
-## Hypotheses
-
-| Test | Null hypothesis | Alternative hypothesis |
-|---|---|---|
-| Firm size | H01: no statistically significant association with CFCQI | H11: firm size is positively associated with CFCQI |
-| External assurance | H02: no statistically significant association with CFCQI | H12: qualifying external assurance is associated with higher CFCQI |
-| Board oversight | H03: no statistically significant association with CFCQI | H13: qualifying board-level oversight is associated with higher CFCQI |
-
-## Sample and source corpus
-
-The frozen sample contains **40 climate-sensitive FTSE 350 firms**, each contributing two consecutive reporting cycles.
-
-| Group | Firms | Reports |
+| TCFD-aligned group | Firms | Reports |
 |---|---:|---:|
 | Energy | 10 | 20 |
 | Transportation | 9 | 18 |
@@ -70,22 +107,64 @@ The frozen sample contains **40 climate-sensitive FTSE 350 firms**, each contrib
 | Agriculture, Food & Forest Products | 10 | 20 |
 | **Total** | **40** | **80** |
 
-The repository contains the **complete verified 80-report source corpus**, together with the source manifest, report index, SHA-256 hashes and corpus verification records. The original PDFs are stored under `corpus/annual_reports/` via Git Large File Storage (Git LFS). The verified source-corpus audit is:
+Each company contributes **two consecutive reporting cycles**, producing **80 firm-year observations**.
 
-| Check | Result |
+### Complete PDF corpus included
+
+The repository contains the **actual 80 annual-report PDFs** under:
+
+```text
+corpus/annual_reports/
+```
+
+The files are organised by sector and company and follow the exact relative paths in [`corpus/CORPUS_MANIFEST.csv`](corpus/CORPUS_MANIFEST.csv).
+
+The final corpus verification produced:
+
+| Audit | Result |
 |---|---:|
-| Expected reports | 80 |
+| Manifest records | 80 |
 | PDFs present | 80 |
 | Missing reports | 0 |
 | SHA-256 mismatches | 0 |
 | Unique verified reports | 80 |
-| Status | **PASS** |
+| Corpus verification | **PASS** |
 
-Each report is linked to the master manifest, source metadata, page count, file size and SHA-256 digest.
+The 80 files total approximately **1.00 GB**. Because of their size they should be tracked with **Git Large File Storage (Git LFS)**.
 
-## CFCQI scoring framework
+Run:
 
-CFCQI contains 12 dimensions of financially connected climate disclosure.
+```bash
+python scripts/verify_corpus.py
+```
+
+The expected result is an 80/80 pass. The machine-readable audit is stored in [`corpus/CORPUS_VERIFICATION.json`](corpus/CORPUS_VERIFICATION.json).
+
+### Source traceability
+
+For every annual report the source register retains:
+
+- Report ID;
+- company and sector;
+- reporting cycle;
+- exact report title;
+- financial-year end;
+- reporting-period start/end;
+- reporting-period length;
+- local PDF path;
+- page count;
+- file size;
+- SHA-256 digest;
+- verification/inclusion status;
+- documented reporting-period or boundary issues.
+
+This allows any CFCQI score to be traced back to the exact source document used in the dissertation.
+
+---
+
+## 7. CFCQI scoring framework
+
+CFCQI contains **12 dimensions** of financially connected climate disclosure.
 
 | Item | Dimension |
 |---:|---|
@@ -102,85 +181,100 @@ CFCQI contains 12 dimensions of financially connected climate disclosure.
 | I11 | Financial planning, budgeting and capital allocation integration |
 | I12 | Quantified scenario analysis with financial consequences |
 
-### Item scoring
+### Scoring scale
 
-- **0** — no qualifying financial connection after full-report review
-- **1** — explicit qualitative/specific but unquantified financial connection
-- **2** — quantified effect or strong specific financial-statement/planning connection
+- **0** — no qualifying financial connection after full-report review;
+- **1** — explicit qualitative or specific but unquantified financial connection;
+- **2** — quantified financial effect or strong specific financial-statement/planning connection.
 
-The standardised index is:
+The raw score ranges from 0 to 24 and is standardised as:
 
 ```text
 CFCQI = (sum of I1…I12 / 24) × 100
 ```
 
-All items are equally weighted to keep the index transparent, reproducible and free from post-hoc weighting based on observed results.
+All 12 items are equally weighted. Equal weighting keeps the index transparent and avoids introducing post-hoc researcher discretion where no validated regulatory or empirical weighting structure exists.
 
-CFCQI measures **disclosure depth**. It is not a regulatory-compliance score, climate-performance score or transition-quality rating.
+The full frozen codebook is available in [`docs/04_CFCQI_CODEBOOK.md`](docs/04_CFCQI_CODEBOOK.md).
 
-## Evidence traceability
+---
 
-Every scoring decision is traceable through the following chain:
+## 8. Evidence architecture
+
+The project contains **80 firm-cycle evidence notes** in [`evidence/`](evidence/). Together they document all **960 CFCQI item decisions**.
+
+A reviewer can follow this chain:
 
 ```text
 Report_ID
   ↓
-Annual-report PDF + SHA-256
+Annual-report PDF + SHA-256 digest
   ↓
 Evidence note + page reference
   ↓
-I1…I12 item scores
+I1…I12 scores
   ↓
 Raw CFCQI / standardised CFCQI
   ↓
 Firm-year analytical row
   ↓
-Statistical result
+Statistical output
+  ↓
+Dissertation interpretation
 ```
 
-The repository contains:
+The consolidated evidence audit is stored in:
 
-- `80` firm-cycle evidence notes in `evidence/`
-- `960` item decisions retained in the 80 evidence notes; `scripts/08_build_evidence_audit.py` deterministically rebuilds `data/audit/CFCQI_EVIDENCE_AUDIT.csv`
-- source validation and change-control logs in `data/audit/`
+[`data/audit/CFCQI_EVIDENCE_AUDIT.csv`](data/audit/CFCQI_EVIDENCE_AUDIT.csv)
 
-## Analytical variables
+See also [`docs/12_DATA_LINEAGE.md`](docs/12_DATA_LINEAGE.md).
+
+---
+
+## 9. Analytical variables
 
 ### Dependent variable
 
-**CFCQI (0–100)** — standardised disclosure-depth score.
+**CFCQI (0–100)** — the standardised disclosure-depth index.
 
-### Main explanatory variables
+### Main predictors
 
-- **Firm size** — natural logarithm of total assets after consistent currency treatment
-- **External sustainability assurance** — binary indicator for qualifying independent assurance
-- **Board-level sustainability/climate oversight** — binary indicator for explicit board-level mandate
+**Firm size**  
+Natural logarithm of total assets after consistent currency treatment.
+
+**External sustainability assurance**  
+Binary indicator equal to 1 when qualifying sustainability/climate information receives independent external assurance and 0 otherwise. The normal statutory financial audit alone does not qualify.
+
+**Board-level sustainability/climate oversight**  
+Binary indicator equal to 1 when a board-level committee has an explicit sustainability/climate mandate and 0 otherwise.
 
 ### Controls
 
-- leverage
-- Return on Assets (ROA)
-- sector group
-- reporting cycle
+- leverage;
+- Return on Assets (ROA);
+- climate-sensitive sector group;
+- reporting cycle.
 
-Full operational definitions are in `docs/06_DATA_DICTIONARY.md`.
+Definitions, calculation rules and source fields are documented in [`docs/06_DATA_DICTIONARY.md`](docs/06_DATA_DICTIONARY.md).
 
-## Analysis
+---
+
+## 10. Statistical analysis
 
 ### RQ1 — Descriptive analytics
 
-The pipeline produces:
+The descriptive layer reports:
 
-- overall mean, median, standard deviation and range
-- cycle-level comparison
-- sector-level comparison
-- complete 12-item score distributions
-- percentages scoring 0/1/2
-- item heatmaps and comparative plots
+- mean, median, standard deviation, minimum and maximum CFCQI;
+- cycle comparison;
+- sector comparison;
+- item-level means;
+- percentage scoring 0, 1 and 2 for each item;
+- heatmaps and distribution plots.
 
 ### RQ2 — Organisational determinants
 
-Primary specification:
+Primary model:
 
 ```text
 CFCQI_it =
@@ -195,101 +289,110 @@ CFCQI_it =
 + ε_it
 ```
 
-The primary model uses **pooled Ordinary Least Squares (OLS)** with **firm-clustered robust standard errors**.
+The primary specification uses **pooled Ordinary Least Squares (OLS)** with **firm-clustered robust standard errors**, because each company contributes two observations.
 
 Diagnostics include:
 
-- Variance Inflation Factors (VIF)
-- residual checks
-- Breusch–Pagan heteroskedasticity test
-- influence/leverage diagnostics
-- Cook's distance
+- Variance Inflation Factors (VIF);
+- residual inspection;
+- Breusch–Pagan heteroskedasticity testing;
+- studentised residuals;
+- leverage and Cook's distance;
+- influential-observation assessment.
 
-Robustness analysis includes:
+Robustness analyses include:
 
-- Mobico irregular-period exclusion
-- Tesco 53-week sensitivity
-- combined Mobico/Tesco exclusion
-- Drax/F009 governance-classification sensitivity
-- latest-cycle-only HC3 specification
-- influential-observation sensitivity
+- Mobico reporting-period exclusion;
+- Tesco 53-week-period sensitivity;
+- combined Mobico + Tesco exclusion;
+- Drax/F009 board-oversight classification sensitivity;
+- latest-cycle-only cross-sectional model using HC3 robust standard errors;
+- influential-observation sensitivity.
 
-### RQ3 — Paired reporting-cycle analysis
+### RQ3 — Within-firm reporting-cycle change
 
-Change is defined as:
+Change is defined unambiguously as:
 
 ```text
 ΔCFCQI = Latest cycle (T) − Prior cycle (T1)
 ```
 
-Primary test:
+The primary test is the **Wilcoxon signed-rank test** because the paired-difference distribution is not treated as normally distributed. Complementary checks include:
 
-- Wilcoxon signed-rank test
+- paired t-test;
+- exact sign test;
+- Mobico/Tesco sensitivity;
+- complete 12-item improvement/unchanged/deterioration analysis.
 
-Complementary checks:
+See [`docs/08_STATISTICAL_ANALYSIS.md`](docs/08_STATISTICAL_ANALYSIS.md) and [`docs/10_ROBUSTNESS_AND_SENSITIVITY.md`](docs/10_ROBUSTNESS_AND_SENSITIVITY.md).
 
-- paired t-test
-- exact sign test
-- item-level improvement / unchanged / deterioration analysis
-- reporting-period exclusion sensitivity
+---
 
-## Reliability and validity
+## 11. Reliability and validity
 
-A 12-report repeat-scoring subset is retained with the exact scoring files and reliability script.
+A 12-report repeat-scoring subset supports the reliability assessment. The repository retains the scoring files and exact calculation script.
 
-Headline result:
+Headline aggregate result:
 
 **Weighted Cohen's κ = 0.631**
 
-Item-level agreement is also reported so the pooled coefficient is not interpreted as uniform reliability across every CFCQI dimension.
+Item-level agreement varies, and the dissertation reports that variation transparently rather than using the pooled statistic to imply uniform reliability across all items.
 
-Validity is supported through:
+Validity is treated through:
 
-- frozen construct definitions
-- explicit scoring rules
-- full-report review before assigning zero
-- evidence-page traceability
-- deterministic index formula
-- locked analytical datasets
-- diagnostic and robustness testing
-- explicit interpretation boundaries
+- explicit construct definitions;
+- a frozen codebook;
+- complete-report review before assigning zero;
+- page-level evidence traceability;
+- deterministic score formulas;
+- locked datasets;
+- multiple robustness tests;
+- clear separation between disclosure depth and regulatory compliance.
 
-## Headline analytical results
+See [`docs/07_RELIABILITY_VALIDITY.md`](docs/07_RELIABILITY_VALIDITY.md).
 
-### Overall CFCQI
+---
+
+## 12. Headline results
+
+### Overall disclosure
 
 **Mean CFCQI = 51.77 / 100**
 
-The largest remaining weaknesses are direct connections to:
+The overall profile is moderate rather than uniformly strong.
 
-- current financial position
-- current financial performance
-- current cash flows
+The largest gaps are in direct current financial connectivity:
 
-Financial-planning integration and quantified scenario analysis are stronger.
+- current financial position;
+- current financial performance;
+- current cash flows.
 
-### RQ2 results
+Financial-planning integration and scenario analysis are substantially stronger.
 
-| Predictor | Result | Technical interpretation |
+### Organisational determinants
+
+| Predictor | Primary result | Interpretation |
 |---|---:|---|
-| Firm size | β = 4.60, p = 0.018 | Positive in pooled model; weaker in latest-cycle-only HC3 |
+| Firm size | β = 4.60, p = 0.018 | Positive in pooled model; weaker in latest-only HC3 model |
 | External assurance | p = 0.185 | Not independently statistically significant |
 | Board oversight | β = 23.76, p < 0.001 | Strongest and most stable positive association |
 
 Primary model **R² = 0.478**.
 
-### RQ3 results
+### Reporting-cycle change
 
-- 12 firms improved
-- 20 firms were unchanged
-- 8 firms declined
-- Wilcoxon p = **0.896**
+- 12 firms improved;
+- 20 were unchanged;
+- 8 declined;
+- Wilcoxon p = **0.896**.
 
-There is therefore no evidence of a systematic overall increase in CFCQI between the two observed cycles.
+Therefore, there is no evidence of a systematic overall increase in CFCQI across the two observed cycles.
 
 <p align="center"><img src="results/figures/04_item_heatmap.png" width="820" alt="Mean CFCQI item scores by sector and reporting cycle"></p>
 
-## Repository structure
+---
+
+## 13. Repository structure
 
 ```text
 .
@@ -300,7 +403,7 @@ There is therefore no evidence of a systematic overall increase in CFCQI between
 ├── requirements.txt
 ├── run_all.sh
 ├── src/                         # shared analysis functions
-├── scripts/                     # pipeline + verification scripts
+├── scripts/                     # reproducible pipeline + corpus verification
 ├── tests/                       # integrity tests
 ├── data/
 │   ├── input/                   # frozen scoring inputs
@@ -309,26 +412,53 @@ There is therefore no evidence of a systematic overall increase in CFCQI between
 │   └── audit/                   # validation + evidence audit
 ├── evidence/                    # 80 firm-cycle evidence notes
 ├── corpus/
-│   ├── CORPUS_MANIFEST.csv
-│   ├── CORPUS_VERIFICATION.json
+│   ├── CORPUS_MANIFEST.csv      # 80-record source manifest
+│   ├── CORPUS_VERIFICATION.json # hash audit
+│   └── annual_reports/          # actual 80 PDFs
 ├── results/
-│   ├── tables/                  # statistical outputs
-│   ├── figures/                 # analytical visualisations
-│   └── packages/                # Excel / Power BI analysis packages
-├── docs/                        # technical methodology and data docs
-└── .github/workflows/           # reproducibility checks
+│   ├── tables/                  # RQ1/RQ2/RQ3 + diagnostics/robustness
+│   └── figures/                 # dissertation-quality figures
+├── docs/                        # methodology + codebook + lineage + governance
+├── deliverables/
+│   ├── dissertation/            # final dissertation
+│   ├── technical/               # technical implementation outputs
+│   └── project_record/          # audit/supporting records
+└── .github/workflows/           # automated reproducibility check
 ```
 
-## Quick start
+---
 
-### 1. Clone
+## 14. How to navigate the repository
+
+If you are reviewing the project for the first time, use this order:
+
+1. **README.md** — understand the full research design and findings.
+2. **docs/01_PROJECT_OVERVIEW.md** — research scope and objectives.
+3. **docs/03_METHODOLOGY_RESEARCH_ONION.md** — methodological architecture.
+4. **docs/04_CFCQI_CODEBOOK.md** — understand each scoring dimension.
+5. **corpus/CORPUS_MANIFEST.csv** — inspect the 80 source reports.
+6. **evidence/** — inspect report-level evidence and scoring rationale.
+7. **data/processed/** — inspect the locked analytical datasets.
+8. **scripts/** — reproduce the statistical implementation.
+9. **results/** — inspect tables and figures.
+10. **deliverables/dissertation/** — read the final academic interpretation.
+
+---
+
+## 15. Reproducing the analysis
+
+### Clone with Git LFS
+
+Because the repository includes approximately 1 GB of annual-report PDFs, install Git LFS first.
 
 ```bash
+git lfs install
 git clone https://github.com/madireddyvasu/16814044-cfcqi-climate-disclosure.git
 cd 16814044-cfcqi-climate-disclosure
+git lfs pull
 ```
 
-### 2. Create environment
+### Create the Python environment
 
 ```bash
 python3 -m venv .venv
@@ -336,29 +466,28 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. Optional local source-corpus verification
-
-After cloning with Git LFS, verify the included 80 annual reports with:
+### Verify the corpus
 
 ```bash
 python scripts/verify_corpus.py
 ```
 
-The script validates the files against the frozen SHA-256 manifest.
+Expected result:
 
-### 4. Run tests
+```text
+80 reports checked
+0 missing
+0 hash mismatches
+PASS
+```
+
+### Run tests
 
 ```bash
 pytest -q
 ```
 
-Expected:
-
-```text
-3 passed
-```
-
-### 5. Reproduce all analytical outputs
+### Re-run the analytical pipeline
 
 ```bash
 bash run_all.sh
@@ -370,84 +499,91 @@ The final reproducibility audit should finish with:
 all_pass: true
 ```
 
-## Recommended review order
+See [`docs/11_REPRODUCIBILITY.md`](docs/11_REPRODUCIBILITY.md).
 
-For a technical review, use this sequence:
+---
 
-1. `README.md`
-2. `docs/04_CFCQI_CODEBOOK.md`
-3. `corpus/CORPUS_MANIFEST.csv`
-4. `evidence/`
-5. `data/processed/`
-6. `scripts/`
-7. `results/tables/`
-8. `results/figures/`
-9. `data/audit/FINAL_REPRODUCIBILITY_AUDIT.json`
+## 16. Documentation index
 
-## Technical documentation
+- [Project overview](docs/01_PROJECT_OVERVIEW.md)
+- [Research questions and hypotheses](docs/02_RESEARCH_QUESTIONS_AND_HYPOTHESES.md)
+- [Research Onion and methodology](docs/03_METHODOLOGY_RESEARCH_ONION.md)
+- [CFCQI codebook](docs/04_CFCQI_CODEBOOK.md)
+- [Sample selection](docs/05_SAMPLE_SELECTION.md)
+- [Data dictionary](docs/06_DATA_DICTIONARY.md)
+- [Reliability and validity](docs/07_RELIABILITY_VALIDITY.md)
+- [Statistical analysis](docs/08_STATISTICAL_ANALYSIS.md)
+- [Results summary](docs/09_RESULTS_SUMMARY.md)
+- [Robustness and sensitivity](docs/10_ROBUSTNESS_AND_SENSITIVITY.md)
+- [Reproducibility guide](docs/11_REPRODUCIBILITY.md)
+- [Data lineage](docs/12_DATA_LINEAGE.md)
+- [Project governance](docs/13_PROJECT_GOVERNANCE.md)
 
-- `docs/01_PROJECT_OVERVIEW.md`
-- `docs/02_RESEARCH_QUESTIONS_AND_HYPOTHESES.md`
-- `docs/03_METHODOLOGY_RESEARCH_ONION.md`
-- `docs/04_CFCQI_CODEBOOK.md`
-- `docs/05_SAMPLE_SELECTION.md`
-- `docs/06_DATA_DICTIONARY.md`
-- `docs/07_RELIABILITY_VALIDITY.md`
-- `docs/08_STATISTICAL_ANALYSIS.md`
-- `docs/09_RESULTS_SUMMARY.md`
-- `docs/10_ROBUSTNESS_AND_SENSITIVITY.md`
-- `docs/11_REPRODUCIBILITY.md`
-- `docs/12_DATA_LINEAGE.md`
-- `docs/13_PROJECT_GOVERNANCE.md`
+---
 
-## Final dissertation and project records
+## 17. Dissertation and technical deliverables
 
-- [Dissertation front matter](deliverables/dissertation/00_FRONT_MATTER.md)
-- [Chapter 1 – Introduction](deliverables/dissertation/chapters/01_introduction.md)
-- [Chapter 2 – Literature Review and Theoretical Framework](deliverables/dissertation/chapters/02_literature_review_and_theoretical_framework.md)
-- [Chapter 3 – Methodology and Ethics](deliverables/dissertation/chapters/03_methodology_and_ethics.md)
-- [Chapter 4 – Results and Findings](deliverables/dissertation/chapters/04_results_and_findings.md)
-- [Chapter 5 – Discussion](deliverables/dissertation/chapters/05_discussion.md)
-- [Chapter 6 – Conclusion, Recommendations and Limitations](deliverables/dissertation/chapters/06_conclusion_recommendations_and_limitations.md)
-- [References and appendices](deliverables/dissertation/07_REFERENCES_AND_APPENDICES.md)
-- [Technical implementation report](deliverables/technical/TECHNICAL_IMPLEMENTATION_REPORT.md)
-- [Supervisor feedback resolution](deliverables/project_record/SUPERVISOR_FEEDBACK_RESOLUTION_LOG.md)
-- [Exceptional-band audit](deliverables/project_record/EXCEPTIONAL_BAND_FINAL_AUDIT.md)
-- [Reference verification log](deliverables/project_record/REFERENCE_VERIFICATION_LOG.md)
-- [Student research and defence notes](deliverables/project_record/STUDENT_RESEARCH_AND_DEFENCE_NOTES.md)
+The `deliverables/` directory connects the implementation with the submitted research record. It includes the final dissertation and technical project documentation used to explain and audit the empirical work.
 
-These Markdown records are intentionally metadata-light and directly readable in GitHub.
+The repository is therefore not intended to be a separate portfolio reconstruction; it is the **reproducibility record of the actual dissertation implementation**.
 
-## Interpretation boundaries
+---
 
-- CFCQI measures disclosure depth, not regulatory compliance.
-- Regression results are observational associations and do not establish causality.
-- The sample represents large climate-sensitive FTSE 350 firms rather than the full UK corporate population.
-- The design contains two reporting cycles only.
-- Binary assurance and governance variables simplify richer organisational structures.
-- Some CFCQI items have weaker repeat-scoring agreement than the pooled reliability coefficient.
+## 18. Interpretation boundaries and limitations
 
-## Data and rights
+When interpreting this repository, note that:
 
-The Python code is licensed under `LICENSE-CODE`.
+- CFCQI measures **disclosure depth**, not climate performance or compliance;
+- the regression is observational and does not establish causality;
+- the sample focuses on large climate-sensitive FTSE 350 firms;
+- there are only two reporting cycles;
+- binary assurance and governance measures simplify richer organisational structures;
+- some CFCQI dimensions have weaker item-level repeat-scoring agreement than the pooled reliability coefficient;
+- irregular reporting periods are handled through sensitivity analysis rather than ignored.
 
-The company annual reports used in the research remain copyright of their respective issuers. The verified PDF bytes are included solely for academic reproducibility and are not relicensed by this repository. See `DATA_CORPUS_NOTICE.md`.
+These constraints are treated as part of the research design and are discussed explicitly in the dissertation.
 
-## Final technical status
+---
 
-- **40 firms**
-- **80 verified source records**
-- **80/80 report identities and hashes verified in the frozen corpus audit**
-- **960 item-level CFCQI decisions**
-- **80-row locked analytical dataset**
-- **RQ1 / RQ2 / RQ3 pipeline complete**
-- **diagnostics complete**
-- **robustness suite complete**
-- **reproducibility audit: PASS**
+## 19. Ethics, provenance and responsible use
+
+The study uses publicly available secondary corporate reports and does not involve human participants or collection of personal/special-category data.
+
+The implementation emphasises:
+
+- source provenance;
+- report identity verification;
+- SHA-256 hashing;
+- transparent scoring rules;
+- no fabricated observations;
+- reproducible code;
+- non-causal interpretation;
+- explicit methodological limitations.
+
+The annual reports remain copyright of their respective issuers and are retained here for academic verification/reproducibility. See [`DATA_CORPUS_NOTICE.md`](DATA_CORPUS_NOTICE.md).
+
+---
+
+## 20. Project status
+
+**Final dissertation analysis frozen and reproducibility-audited.**
+
+- 40 firms
+- 80 verified annual reports
+- 80/80 PDFs physically present
+- 80/80 SHA-256 hashes verified
+- 960 item decisions
+- final analytical dataset locked
+- RQ1/RQ2/RQ3 analyses reproduced
+- diagnostics and robustness completed
+- final audit passed
+
+---
 
 ## Author
 
 **Vasu Deva Rao Madireddy**  
-Student ID: **16814044**  
-MSc Business Analytics  
-Coventry University
+**Student ID:** 16814044  
+**Programme:** MSc Business Analytics  
+**Institution:** Coventry University
+

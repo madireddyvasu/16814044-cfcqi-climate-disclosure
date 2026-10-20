@@ -1,6 +1,6 @@
 # Methodology and Research Onion alignment
 
-The final methodology follows the Research Onion sequence used for the technical implementation:
+The final methodology follows the supervisor-aligned Research Onion sequence:
 
 1. **Philosophy — Pragmatism:** selected because the project is driven by an applied reporting problem and combines documentary measurement with statistical decision support.
 2. **Approach — Deductive:** research questions, CFCQI dimensions and hypotheses are specified before inferential analysis.

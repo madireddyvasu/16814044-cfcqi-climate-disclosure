@@ -69,7 +69,7 @@ published in Q1 2026 and was available well before the cut-off - no sampling iss
 - 1 truncated split (Sainsbury's 111 pages) - replaced with the official full version.
 - Details in `Missing_or_Excluded_Reports.xlsx`.
 
-## 6. Methodological issues and residual risks
+## 6. Methodological issues for the dissertation
 
 1. **Reporting-period length:** Mobico T is a **15-month** period (year-end changed Dec->Mar
    2026); Tesco T is a **53-week** period (12.2 months). Recorded exactly, not normalised;

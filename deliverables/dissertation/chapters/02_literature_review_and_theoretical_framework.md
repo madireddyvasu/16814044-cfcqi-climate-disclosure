@@ -40,7 +40,9 @@ Profitability and leverage may influence disclosure incentives and capacity, whi
 
 Elkington’s (1997) Triple Bottom Line frames organisational performance across economic, environmental and social dimensions, although later critiques warn against treating the three dimensions as mechanically commensurable (Norman & MacDonald, 2004). In this dissertation, TBL is therefore a contextual lens rather than a scoring formula. Climate risk represents the environmental pressure; governance and accountability mechanisms help determine whether that pressure enters strategic and financial processes; and financial connectivity makes the economic consequences visible to users of corporate reports. The social dimension appears through accountability to investors and other stakeholders rather than as a separate CFCQI component.
 
-Figure 2.1 in the submission document presents the conceptual pathway from climate risk to financially connected disclosure.
+<img src="media/image1.png" title="Figure 1" style="width:6.5in;height:1.34428in" alt="Conceptual pathway from environmental climate risk through governance/accountability and financial decision-making to financially connected disclosure and CFCQI." />
+
+Figure 2.1. Conceptual pathway from climate risk to financially connected disclosure.
 
 The framework predicts that financial connectivity should be strongest where organisations have the capacity to integrate climate information, credible reporting processes and formal governance oversight. CFCQI is the observable reporting outcome of that pathway, not a measure of the firm’s sustainability performance.
 
@@ -51,3 +53,4 @@ Three gaps follow. First, much research measures TCFD alignment or general clima
 ## 2.8 Chapter Summary
 
 The literature shows that climate reporting has matured procedurally faster than it has matured financially. Quantification and connectivity remain uneven, while firm capacity, assurance, governance and sector context provide plausible explanations for variation. Chapter 3 translates these arguments into the research design, variables, hypotheses and statistical procedures.
+

@@ -1,7 +1,5 @@
-# Data and source-corpus notice
+# Data and corpus notice
 
-The Python code is covered by `LICENSE-CODE`. The company annual reports and other third-party source documents remain copyright of their original issuers/publishers and are **not stored in this GitHub repository**.
+The Python code is covered by `LICENSE-CODE`. The annual reports, company disclosures and third-party source documents are **not** relicensed by this repository. Copyright remains with the original issuers/publishers. They are retained as research source material for reproducibility and should be used subject to the original rights and terms.
 
-For reproducibility, the repository retains the 80-report source manifest, report identities, reporting periods, page counts, file sizes, source references, SHA-256 digests, evidence notes and locked analytical datasets. A local copy of the source PDFs can be validated with `scripts/verify_corpus.py`.
-
-The derived CFCQI scores, evidence summaries, audit records and analysis outputs are research artefacts. CFCQI is a disclosure-depth research instrument and must not be interpreted as a legal or regulatory compliance score.
+The derived CFCQI scores, evidence summaries, audit records and analysis outputs are research artefacts produced for this MSc project. The CFCQI is a research instrument and must not be interpreted as a legal or regulatory compliance score.

@@ -5,19 +5,8 @@
   "firms": 40,
   "reports": 80,
   "cfcqi_decisions": 960,
-  "repo_version": "1.2.0",
-  "corpus_included": true,
-  "corpus_strategy": "80 original annual-report PDFs stored under corpus/annual_reports via Git LFS; each file SHA-256 verified against the frozen manifest",
-  "analysis_frozen": true,
-  "reproducibility_ci": "PASS",
-  "deliverables_included": [
-    "browser-readable final dissertation",
-    "technical implementation report",
-    "supervisor feedback resolution",
-    "exceptional-band audit",
-    "reference verification",
-    "student defence notes"
-  ],
-  "scope": "complete technical implementation, verified 80-report source corpus, datasets, evidence, analysis, results, reproducibility documentation and final research records",
-  "excluded": "metadata-bearing Word submission binaries; annual-report copyrights remain with original issuers"
+  "repo_version": "1.0.0",
+  "corpus_included": false,
+  "corpus_strategy": "Git LFS",
+  "analysis_frozen": true
 }

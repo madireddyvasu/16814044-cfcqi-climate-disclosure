@@ -4,7 +4,7 @@ Dep. Variable:                  cfcqi   R-squared:                       0.478
 Model:                            OLS   Adj. R-squared:                  0.410
 Method:                 Least Squares   F-statistic:                     5.531
 Date:                Tue, 20 Oct 2026   Prob (F-statistic):           6.73e-05
-Time:                        02:04:44   Log-Likelihood:                -321.12
+Time:                        01:02:23   Log-Likelihood:                -321.12
 No. Observations:                  80   AIC:                             662.2
 Df Residuals:                      70   BIC:                             686.1
 Df Model:                           9                                         

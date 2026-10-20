@@ -140,4 +140,4 @@
 
 ---
 
-*Pilot decisions (2026-10-07) recorded in `docs/decision_log.md`. Coder: record ambiguous cases in the decision log to preserve a transparent research audit trail.*
+*Pilot decisions (2026-10-07) recorded in `docs/decision_log.md`. Coder: record ambiguous cases in the decision log so the final dissertation can document them (examiner-facing transparency).*

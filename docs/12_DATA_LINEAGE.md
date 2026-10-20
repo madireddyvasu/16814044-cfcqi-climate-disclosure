@@ -11,7 +11,7 @@ Locked coding input
    ↓ deterministic CFCQI calculation
 80-row analysis dataset
    ↓ descriptive / OLS / paired / robustness scripts
-Tables + figures + analytical findings
+Tables + figures + dissertation findings
 ```
 
 The authoritative mapping between PDFs and analytical observations is `data/source_register/Vasu_Master_Annual_Report_Register.csv`.

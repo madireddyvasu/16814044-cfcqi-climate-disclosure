@@ -4,7 +4,7 @@
 
 *Plain-language record of what was done and what the results mean*
 
-Vasu Deva Rao Madireddy | Student ID 16814044 | MSc Business Analytics | 7015SOM
+Vasu Deva Rao Madireddy \| Student ID 16814044 \| MSc Business Analytics \| 7015SOM
 
 # Project in one paragraph
 
@@ -52,7 +52,7 @@ Overall CFCQI mean = 51.77 (SD 18.65): disclosure is moderate and heterogeneous.
 
 # RQ2 result
 
-Pooled model R² = 0.478. Firm size: β = 4.60, p = .018, supporting H11 in the primary model, but latest-cycle-only HC3 weakens to about p = .076. External assurance: β = 11.17, p = .185, so H02 is not rejected/H12 is not supported. Board oversight: β = 23.76, p < .001, strongly supporting H13 and remaining robust across sensitivity tests. ROA and Energy-sector membership are secondary significant associations.
+Pooled model R² = 0.478. Firm size: β = 4.60, p = .018, supporting H11 in the primary model, but latest-cycle-only HC3 weakens to about p = .076. External assurance: β = 11.17, p = .185, so H02 is not rejected/H12 is not supported. Board oversight: β = 23.76, p \< .001, strongly supporting H13 and remaining robust across sensitivity tests. ROA and Energy-sector membership are secondary significant associations.
 
 # RQ3 result
 
@@ -76,15 +76,15 @@ The sample covers 40 large listed firms and only two cycles; CFCQI involves judg
 
 # Fast answers for supervisor questions
 
-| Question | Answer |
-|---|---|
-| What is FY? | Financial Year. |
-| What is market capitalisation? | The market value of a company’s outstanding equity; it was used to rank eligible firms within the sampling frame. |
-| What is pragmatism here? | A philosophy focused on using methods that appropriately answer an applied problem; it does not mean that the study is automatically mixed methods. |
-| Why not thematic analysis? | Themes were not generated inductively. Predefined financial-connectivity criteria were scored numerically. |
-| Why Python and Excel? | Excel is the auditable data layer; Python reproduces validation, descriptives, regression, reliability, paired tests, robustness and figures. |
-| What does p < .05 mean? | The observed evidence is sufficiently inconsistent with the null hypothesis at the conventional 5% threshold; it does not prove causality. |
-| Why clustered standard errors? | Each firm contributes two observations, so errors may be correlated within the same firm. |
-| What is HC3? | A heteroskedasticity-consistent robust standard-error estimator used in the latest-cycle-only sensitivity model. |
-| What is the strongest result? | Board-level sustainability/climate oversight: about +23.76 CFCQI points in the pooled model, p < .001, robust across sensitivity checks. |
+| **Question**                    | **Answer**                                                                                                                                                                                                                                           |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| What is FY?                     | Financial Year.                                                                                                                                                                                                                                      |
+| What is market capitalisation?  | The market value of a company’s outstanding equity; it was used to rank eligible firms within the sampling frame.                                                                                                                                    |
+| What is pragmatism here?        | A philosophy focused on using methods that appropriately answer an applied problem; it does not mean that the study is automatically mixed methods.                                                                                                  |
+| Why not thematic analysis?      | Because themes were not generated inductively. Predefined financial-connectivity criteria were scored numerically.                                                                                                                                   |
+| Why Python and Excel?           | Excel is the auditable data layer; Python reproduces validation, descriptives, regression, reliability, paired tests, robustness and figures.                                                                                                        |
+| What does p \< .05 mean?        | Under the stated model, the observed evidence is sufficiently inconsistent with the null hypothesis at the conventional 5% threshold; it does not prove causality.                                                                                   |
+| Why clustered standard errors?  | Each firm contributes two observations, so errors may be correlated within the same firm.                                                                                                                                                            |
+| What is HC3?                    | A heteroskedasticity-consistent robust standard-error estimator used in the latest-cycle-only sensitivity model.                                                                                                                                     |
+| What is the strongest result?   | Board-level sustainability/climate oversight: about +23.76 CFCQI points in the pooled model, p \< .001, robust across sensitivity checks.                                                                                                            |
 | What is the overall conclusion? | Climate reporting processes are established, but quantified financial connectivity remains uneven; governance is more strongly associated with depth than external assurance, and there is no systematic improvement across the two observed cycles. |

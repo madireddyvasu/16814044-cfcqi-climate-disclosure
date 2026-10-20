@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""RQ2 diagnostics and full robustness suite used in the final analysis."""
+"""RQ2 diagnostics and full robustness suite used in the final dissertation."""
 from pathlib import Path
 import argparse
 import numpy as np

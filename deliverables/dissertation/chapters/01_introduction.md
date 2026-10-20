@@ -45,3 +45,4 @@ The study narrows analysis from broad Environmental, Social and Governance (ESG)
 ## 1.7 Chapter Summary
 
 This chapter established the regulatory context, the quantification/connectivity problem and the approved research focus. Chapter 2 critically reviews the literature and develops the theoretical and conceptual logic used to explain variation in disclosure depth.
+

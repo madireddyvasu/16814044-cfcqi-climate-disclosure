@@ -4,18 +4,20 @@
 
 This chapter translates the conceptual framework into a coherent Business Analytics methodology using the Research Onion of Saunders et al. (2019). The onion moves from philosophy through approach, methodological choice, strategy and time horizon to data collection and analysis. This structure clarifies the link between research questions, hypotheses, variables and statistical procedures. Figure 3.1 and Table 3.1 summarise the selected choices.
 
+<img src="media/image7.png" style="width:5.7in;height:6.29485in" alt="Image: image7.png" />
+
 *Figure 3.1. Research Onion and methodological choices used in this study. Adapted from Saunders et al. (2019).*
 
 *Table 3.1. Research Onion decisions and justification.*
 
-| **Layer** | **Selected choice** | **Justification** |
-|---|---|---|
-| Philosophy | Pragmatism | Addresses an applied Business Analytics problem while making measurement assumptions explicit. |
-| Approach | Deductive | Literature informs hypotheses and variables before testing. |
-| Methodological choice | Mono-method quantitative | Final evidence is represented as numerical firm-year variables; thematic analysis is not used. |
-| Strategy | Quantitative content analysis | Predefined rules convert annual-report evidence into comparable 0–2 scores. |
-| Time horizon | Two consecutive reporting cycles | Supports pooled analysis and within-firm comparison. |
-| Techniques/procedures | Sample selection, data collection, CFCQI scoring, OLS and paired tests | Connects documentary evidence directly to reproducible statistical analysis. |
+| **Layer**             | **Selected choice**                                                    | **Justification**                                                                              |
+|-----------------------|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| Philosophy            | Pragmatism                                                             | Addresses an applied Business Analytics problem while making measurement assumptions explicit. |
+| Approach              | Deductive                                                              | Literature informs hypotheses and variables before testing.                                    |
+| Methodological choice | Mono-method quantitative                                               | Final evidence is represented as numerical firm-year variables; thematic analysis is not used. |
+| Strategy              | Quantitative content analysis                                          | Predefined rules convert annual-report evidence into comparable 0–2 scores.                    |
+| Time horizon          | Two consecutive reporting cycles                                       | Supports pooled analysis and within-firm comparison.                                           |
+| Techniques/procedures | Sample selection, data collection, CFCQI scoring, OLS and paired tests | Connects documentary evidence directly to reproducible statistical analysis.                   |
 
 Source: Author, adapted from Saunders et al. (2019).
 
@@ -41,27 +43,31 @@ Two reports per firm produced 80 firm-years. Each document was checked for compa
 
 The Climate Financial Connectivity and Quantification Index (CFCQI) contains 12 items covering current and anticipated financial effects, capital allocation, valuation/impairment, provisions, carbon/regulatory costs, financial-planning integration and quantified scenario analysis. Scores are 0 (no qualifying financial connection after full-report review), 1 (explicit but unquantified connection) or 2 (quantified or strongly specific financial link). Equal weighting is used because no defensible ex ante basis exists for differential weights and unweighted disclosure indices are established in disclosure research (Tsalavoutas et al., 2010). CFCQI = (raw score / 24) × 100 and measures disclosure depth, not compliance or environmental performance.
 
-Firm size is ln(total assets in Pound Sterling (GBP) millions). External sustainability assurance equals 1 for qualifying independent assurance and 0 otherwise; the statutory financial audit alone does not qualify. Board oversight equals 1 where a board-level committee has an explicit sustainability/climate remit. Leverage and Return on Assets (ROA) are financial controls, while TCFD group and cycle are categorical controls.
+Firm size is ln(total assets in Pound Sterling (GBP) millions). External sustainability assurance equals 1 for qualifying independent assurance and 0 otherwise; the statutory financial audit alone does not qualify. Board oversight equals 1 where a board-level committee has an explicit sustainability/climate remit. Leverage and Return on Assets (ROA) are financial controls, while TCFD group and cycle are categorical controls. Table 3.2 summarises the definitions.
 
-| **Variable** | **Operationalisation** | **Role** |
-|---|---|---|
-| CFCQI | 12-item score, 0–100 | Dependent variable |
-| Firm size | ln(total assets in GBP millions) | Primary predictor |
-| External assurance | 1 = qualifying independent assurance; 0 = otherwise | Primary predictor |
-| Board oversight | 1 = board committee with explicit sustainability/climate remit; 0 = otherwise | Primary predictor |
-| Leverage | Interest-bearing debt / total assets | Control |
-| ROA | Profit after tax / average total assets | Control |
-| TCFD group; cycle | Categorical indicators | Controls |
+*Table 3.2. Variables and operational definitions.*
+
+| **Variable**       | **Operationalisation**                                                        | **Role**           |
+|--------------------|-------------------------------------------------------------------------------|--------------------|
+| CFCQI              | 12-item score, 0–100                                                          | Dependent variable |
+| Firm size          | ln(total assets in GBP millions)                                              | Primary predictor  |
+| External assurance | 1 = qualifying independent assurance; 0 = otherwise                           | Primary predictor  |
+| Board oversight    | 1 = board committee with explicit sustainability/climate remit; 0 = otherwise | Primary predictor  |
+| Leverage           | Interest-bearing debt / total assets                                          | Control            |
+| ROA                | Profit after tax / average total assets                                       | Control            |
+| TCFD group; cycle  | Categorical indicators                                                        | Controls           |
 
 Source: Study codebook and locked data dictionary.
 
 The supervisor requested both null and alternative hypotheses. Each pair is assessed through the sign, 95% confidence interval and p-value of the corresponding OLS coefficient. A non-significant result is described as failure to reject the null, not acceptance of it.
 
-| **Test** | **Null hypothesis** | **Alternative hypothesis** |
-|---|---|---|
-| Size | H01: Firm size has no statistically significant association with CFCQI after controls. | H11: Firm size is positively associated with CFCQI after controls. |
-| Assurance | H02: External sustainability assurance has no statistically significant association with CFCQI after controls. | H12: Firms with qualifying external sustainability assurance have higher CFCQI after controls. |
-| Board oversight | H03: Board-level sustainability/climate oversight has no statistically significant association with CFCQI after controls. | H13: Firms with qualifying board-level oversight have higher CFCQI after controls. |
+*Table 3.3. Null and alternative hypotheses.*
+
+| **Test**        | **Null hypothesis**                                                                                                       | **Alternative hypothesis**                                                                     |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| Size            | H01: Firm size has no statistically significant association with CFCQI after controls.                                    | H11: Firm size is positively associated with CFCQI after controls.                             |
+| Assurance       | H02: External sustainability assurance has no statistically significant association with CFCQI after controls.            | H12: Firms with qualifying external sustainability assurance have higher CFCQI after controls. |
+| Board oversight | H03: Board-level sustainability/climate oversight has no statistically significant association with CFCQI after controls. | H13: Firms with qualifying board-level oversight have higher CFCQI after controls.             |
 
 ## 3.7 Statistical Analysis
 
@@ -80,3 +86,4 @@ Ethical approval was granted through Coventry University’s research ethics pro
 ## 3.10 Chapter Summary
 
 Following the Research Onion layer by layer, this chapter establishes a coherent mono-method quantitative design based on pragmatism, deduction, quantitative content analysis, predefined CFCQI scoring and reproducible statistical testing. Chapter 4 reports the empirical results; Chapters 5 and 6 provide interpretation and direct answers to the research questions.
+

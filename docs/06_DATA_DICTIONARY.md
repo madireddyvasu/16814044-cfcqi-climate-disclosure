@@ -41,10 +41,10 @@ Tie-breaks (codebook §2): higher score wins when both qualitative and quantifie
 
 | Column | Definition | Unit / scale | Source & transformation |
 |---|---|---|---|
-| `size` | Firm size | ln(total assets in £m) | Consolidated balance sheet. **FX rule:** non-GBP reporters converted at the ECB euro foreign-exchange reference rate on the balance-sheet date; rate + date recorded per row in `notes` and evidence files (e.g. USD→GBP 0.74264 @ 31 Dec 2025; EUR→GBP 0.87260 @ 31 Dec 2025; Diageo 0.75587 @ 29 Jun 2026). ECB rates were not independently re-verified — cite the ECB directly in any downstream reporting. |
+| `size` | Firm size | ln(total assets in £m) | Consolidated balance sheet. **FX rule:** non-GBP reporters converted at the ECB euro foreign-exchange reference rate on the balance-sheet date; rate + date recorded per row in `notes` and evidence files (e.g. USD→GBP 0.74264 @ 31 Dec 2025; EUR→GBP 0.87260 @ 31 Dec 2025; Diageo 0.75587 @ 29 Jun 2026). ECB rates were not independently re-verified — cite ECB directly in the dissertation. |
 | `assurance` | External sustainability assurance obtained | 1 / 0 (binary) | 1 = independent assurance over sustainability/environmental subject matter (limited or reasonable, even on selected metrics only); statutory financial-statement audit alone = 0. Evidence quote in evidence file. |
 | `board_oversight` | Board-level sustainability/climate oversight | 1 / 0 (binary) | 1 = dedicated board-level committee OR named board committee with an explicit sustainability/climate/environment remit; 0 = full-board oversight only, or management-level committees only. Committee name + remit quoted in evidence file. |
-| `leverage` | Financial leverage | ratio (total debt / total assets) | **Locked methodological rule 2026-10-07** (`docs/decision_log.md` R1): total debt = current + non-current interest-bearing borrowings **including bank overdrafts**; lease liabilities excluded where separately disclosed (included only where inseparable from the borrowings line — F015 Wizz Air, documented). Components shown per row in evidence files. |
+| `leverage` | Financial leverage | ratio (total debt / total assets) | **Supervisor ruling 2026-10-07** (`docs/decision_log.md` R1): total debt = current + non-current interest-bearing borrowings **including bank overdrafts**; lease liabilities excluded where separately disclosed (included only where inseparable from the borrowings line — F015 Wizz Air, documented). Components shown per row in evidence files. |
 | `roa` | Profitability | ratio (net income attributable to owners / total assets) | Income statement + balance sheet. Negative where the firm reported a loss. |
 | `coder` | Coder identifier | coderA–coderK, coderM, pilot | Which coder produced the row (audit trail). 15% blind re-code performed by an independent coder — see `data/interim/reliability_recode.csv`, `results/tables/reliability.csv`. |
 | `notes` | Row-level caveats | free text | FX rates/dates, debt components, year-end changes (F019 15-month T), cross-report discrepancies, MISSING flags (none remaining). |
@@ -56,9 +56,9 @@ Tie-breaks (codebook §2): higher score wins when both qualitative and quantifie
 | `raw_score` | CFCQI raw score | integer 0–24 | Σ(item1..item12) |
 | `cfcqi` | Climate Financial Connectivity and Quantification Index | 0–100 (1 decimal) | (raw_score / 24) × 100 |
 
-**Interpretation warning:** a CFCQI of 62.5 means the firm achieved 62.5% of the maximum score available under this research instrument — it is **not** a measure of regulatory compliance with UK SRS S2 / IFRS S2, which permit qualitative disclosure in some circumstances.
+**Interpretation warning (must appear in the dissertation):** a CFCQI of 62.5 means the firm achieved 62.5% of the maximum score available under this research instrument — it is **not** a measure of regulatory compliance with UK SRS S2 / IFRS S2, which permit qualitative disclosure in some circumstances.
 
-## Known data quirks and handling rules
+## Known data quirks (own these in the methodology chapter)
 
 1. **F019 (Mobico) T** is a 15-month period to 31 Mar 2026 (year-end change Dec→Mar); figures used as reported, not annualised. Sensitivity analysis excluding F019: `results/tables/robustness.txt`.
 2. **F027 (Smiths Group):** FY2026 AR unpublished at data cut-off → T=FY2025, T1=FY2024 (two most recent consecutive ARs available).

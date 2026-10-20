@@ -28,13 +28,13 @@ Recommendations follow directly from the observed gaps and should be treated as 
 
 Table 6.1. Evidence-based implementation priorities.
 
-| **Evidence issue** | **Recommended action** | **Primary owner** | **Timing** | **Success indicator** |
-|---|---|---|---|---|
-| Current-effects gap | Map material climate risks to financial-statement lines, assumptions and supportable amounts | CFO / reporting | Next cycle | % material risks with financial linkage |
-| Governance integration | Make climate-financial connectivity a standing board/committee control responsibility | Board / CoSec | Immediate | Documented board review |
-| Assurance scope | Extend readiness beyond emissions to material climate-financial data and controls | Audit committee | 12–24 months | Broader assured scope |
-| Scenario translation | Link scenarios to capex, impairment, cash flow and planning ranges | Finance / risk | 12 months | Scenario outputs reconciled to plans |
-| UK SRS readiness | Run requirement-level gap assessment and retain traceable evidence | Reporting team | Before first UK SRS period | Gap-closure rate |
+| **Evidence issue**     | **Recommended action**                                                                       | **Primary owner** | **Timing**                 | **Success indicator**                   |
+|------------------------|----------------------------------------------------------------------------------------------|-------------------|----------------------------|-----------------------------------------|
+| Current-effects gap    | Map material climate risks to financial-statement lines, assumptions and supportable amounts | CFO / reporting   | Next cycle                 | % material risks with financial linkage |
+| Governance integration | Make climate-financial connectivity a standing board/committee control responsibility        | Board / CoSec     | Immediate                  | Documented board review                 |
+| Assurance scope        | Extend readiness beyond emissions to material climate-financial data and controls            | Audit committee   | 12–24 months               | Broader assured scope                   |
+| Scenario translation   | Link scenarios to capex, impairment, cash flow and planning ranges                           | Finance / risk    | 12 months                  | Scenario outputs reconciled to plans    |
+| UK SRS readiness       | Run requirement-level gap assessment and retain traceable evidence                           | Reporting team    | Before first UK SRS period | Gap-closure rate                        |
 
 Recommendations are evidence-based implementation priorities; the observational design does not establish causal effects.
 
@@ -55,3 +55,4 @@ Future research should extend the panel into the first years of mandatory UK SRS
 ## 6.8 Final Chapter Summary
 
 The study concludes that UK climate reporting is moving from narrative maturity towards financial integration, but that transition is incomplete. The most persistent weakness is the connection between climate matters and current financial outcomes. Governance appears more closely associated with deeper connectivity than assurance status alone, and no broad improvement is visible across the two pre-implementation cycles. The resulting baseline provides a transparent benchmark against which post-UK SRS reporting can be assessed.
+

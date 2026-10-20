@@ -2,6 +2,7 @@
 
 **Student:** Vasu Deva Rao Madireddy (16814044)  
 **Programme:** MSc Business Analytics, Coventry University  
+**Route:** Research-based dissertation
 
 This project measures the extent to which climate-sensitive FTSE 350 firms connect climate disclosure to financial effects, quantification, planning and financial statements. It introduces the **Climate Financial Connectivity and Quantification Index (CFCQI)**, a 12-item 0–2 scoring framework converted to a 0–100 index.
 

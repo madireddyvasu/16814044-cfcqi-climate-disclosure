@@ -1,21 +1,16 @@
-# Project governance and version control
+# Project governance and audit trail
 
-This repository is the technical reproducibility record for the CFCQI research implementation.
+The research record includes:
 
-## Frozen analytical components
+- sample-selection and boundary decisions
+- report-source validation
+- duplicate-hash audit
+- evidence notes for all 80 firm-year reports
+- frozen codebook
+- data dictionary
+- final reproducibility audit
+- supervisor-feedback resolution log
+- reference-verification log
+- dissertation/rubric audit
 
-- verified 40-firm / 80-report sample;
-- 12-item CFCQI codebook;
-- locked scoring and firm-variable datasets;
-- source hashes and evidence records;
-- final RQ1, RQ2 and RQ3 scripts;
-- diagnostics, reliability and robustness outputs;
-- final corpus verification record.
-
-## Change control
-
-Methodological decisions and corrections are recorded in `data/audit/decision_log.md` and `data/audit/CHANGELOG.md`. Changes that alter analytical values are documented with the affected records and downstream result impact.
-
-## Repository scope
-
-The repository intentionally contains only the technical implementation, source corpus, analytical datasets, evidence trail, results and reproducibility documentation. The repository excludes assessment documents and Word submission files.
+These artefacts are retained to demonstrate how methodological decisions evolved and how the final dissertation was aligned with supervisor feedback. Because some project-record files contain assessment-process material, keep the repository **private until marking is complete** unless there is a specific reason to publish them.

@@ -47,3 +47,4 @@ Reliability results also qualify the discussion. Pooled κ of 0.631 supports agg
 ## 5.6 Chapter Summary
 
 The discussion shows that the central UK SRS-readiness gap is financial integration rather than the presence of climate processes. Larger firms tend to disclose more deeply, assurance alone does not explain CFCQI, and formal board oversight is the strongest organisational correlate. Reporting does not improve systematically across the two observed cycles. Chapter 6 converts these findings into direct answers to the research questions, contributions, recommendations, limitations and future research priorities.
+
