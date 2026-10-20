@@ -1,4 +1,76 @@
 {
   "generated_for": "one-time verified corpus ingest",
-  "files": []
+  "files": [
+    {
+      "path": "corpus/annual_reports/01_Energy/BP/BP_2024_Annual_Report.pdf",
+      "sha256": "d5adbb48b734287ef5b47c4a684eb3505d9179e0f14e81a6da9c5b50f3c958fb",
+      "size": 3321803,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-ca04-8243-ad62-df0f40a81145/raw?se=2026-10-20T03%3A43%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=e638200d-53df-5b4a-b38d-52a7b1f94ea7&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A04%3A27Z&ske=2026-10-20T23%3A04%3A27Z&sks=b&skv=2026-02-06&sig=o6Z7KwwpUEileQVY1AVK1e1lz4o7ylMCEdcZfDNvvoU%3D",
+      "title": "BP_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/BP/BP_2025_Annual_Report.pdf",
+      "sha256": "bbe4e34edda665ed3d5d84291b79d13118e31ca1355e794a43f11fd50ab8a237",
+      "size": 4367578,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-013c-81f4-b949-16bbd1717631/raw?se=2026-10-20T03%3A43%3A41Z&sp=r&sv=2026-02-06&sr=b&scid=b0893e15-61d4-51c2-aeed-3e658f31253b&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A02Z&ske=2026-10-20T23%3A00%3A02Z&sks=b&skv=2026-02-06&sig=%2BpHrZivoZtwtZ6s6%2BZS5PXvUYp3VcsYeYh33Uk79G60%3D",
+      "title": "BP_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/Centrica/Centrica_2024_Annual_Report.pdf",
+      "sha256": "8dfb34030fe638abdc3096ade2e0a21407a633e14e83ef7b8b3df5515ef380f5",
+      "size": 4403464,
+      "url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-a174-820a-9134-586161e1c861/raw?se=2026-10-20T03%3A43%3A50Z&sp=r&sv=2026-02-06&sr=b&scid=0aa35068-98c4-573c-8be7-33c7f8ecf57b&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A09%3A39Z&ske=2026-10-20T23%3A09%3A39Z&sks=b&skv=2026-02-06&sig=qRDDC1u47e%2BrCUzBZhXbSL9DVMbNQNBPNSUFlZvB6E8%3D",
+      "title": "Centrica_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/Centrica/Centrica_2025_Annual_Report.pdf",
+      "sha256": "e8b69ba0927c79eccd8d7fd2a1e6a54456c694f5a1623265d47017d1b6a2bba3",
+      "size": 6652469,
+      "url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-2f54-820a-bc60-9d65a10e4e79/raw?se=2026-10-20T03%3A43%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=c52f04b8-8916-5332-a1e3-6e7bbdd05fc8&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A27Z&ske=2026-10-20T23%3A08%3A27Z&sks=b&skv=2026-02-06&sig=SyHQ0HInarCQG4qblh81Vf7i7HMPLFg9O0n2awuNDtE%3D",
+      "title": "Centrica_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/NationalGrid/NationalGrid_2024-25_Annual_Report.pdf",
+      "sha256": "78003940c52237148d26ffafd8df647c4f363d09cd03d70213a9399c8ab747e8",
+      "size": 7750393,
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-050c-8246-bac4-d775dcb882bc/raw?se=2026-10-20T03%3A43%3A45Z&sp=r&sv=2026-02-06&sr=b&scid=c826715f-d2aa-58ab-946b-1b9b9d3d6f12&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A55%3A47Z&ske=2026-10-20T22%3A55%3A47Z&sks=b&skv=2026-02-06&sig=qwPLmHxBlxfSyYwYxD/loCb2diOh3KLp0Bxwu5DxR2M%3D",
+      "title": "NationalGrid_2024-25_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/NationalGrid/NationalGrid_2025-26_Annual_Report.pdf",
+      "sha256": "ebc59ad4a7f1ea36de7b5a8756363df0c1d0437591682a3173115af4fbf2beaf",
+      "size": 9171874,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-42bc-8243-968c-d277d5816906/raw?se=2026-10-20T03%3A43%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=3b0a38f9-5c06-5717-b213-5c6fb1ce8ec7&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A52%3A12Z&ske=2026-10-20T21%3A52%3A12Z&sks=b&skv=2026-02-06&sig=LQaThAu6ierNO3JK2KqyWnb0NbGoSTSa%2BmgDonSeEkA%3D",
+      "title": "NationalGrid_2025-26_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/Shell/Shell_2024_Annual_Report.pdf",
+      "sha256": "0b88a901a12bb5e61cc37ac2f2ff60508f086fd7de753aa716e8999e348e7f14",
+      "size": 13975168,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-fc10-8243-91a6-c85a40efe4b5/raw?se=2026-10-20T03%3A43%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=ce327ccc-af6d-5382-87e5-51590c13569b&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-20T03%3A19%3A10Z&ske=2026-10-21T03%3A19%3A10Z&sks=b&skv=2026-02-06&sig=mH9rt971BJfpPuwBMVniIUkCW210Bnj7uqKa31YTlLg%3D",
+      "title": "Shell_2024_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/Shell/Shell_2025_Annual_Report.pdf",
+      "sha256": "90b21028e1616c41c7d73c3e996fd6128d837a41b38d432286e991aed3fbd9a1",
+      "size": 20706059,
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-f34c-8243-b959-e05422f44cf4/raw?se=2026-10-20T03%3A43%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=5bb21482-dac7-52c4-894f-815b63391e89&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A58%3A03Z&ske=2026-10-20T22%3A58%3A03Z&sks=b&skv=2026-02-06&sig=6Lnu00Eq6GwB4BbxOECzUeuVZXjb1A7N6jA7y7VYGwo%3D",
+      "title": "Shell_2025_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/SSE/SSE_2024-25_Annual_Report.pdf",
+      "sha256": "9895a207c9c7a0c663df577b28ff8a8cabf2be1f3718c377b6780d5c50911ba9",
+      "size": 23301269,
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-cf44-81f4-b875-89ded2263c4c/raw?se=2026-10-20T03%3A43%3A50Z&sp=r&sv=2026-02-06&sr=b&scid=7bceb726-fd16-5551-80e4-d2ee13946576&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A03Z&ske=2026-10-20T23%3A00%3A03Z&sks=b&skv=2026-02-06&sig=NIUWI2HAgww%2Bzcjixr1eAJQFw0VaLpQs7wk9crAcQ%2Bg%3D",
+      "title": "SSE_2024-25_Annual_Report.pdf"
+    },
+    {
+      "path": "corpus/annual_reports/01_Energy/SSE/SSE_2025-26_Annual_Report.pdf",
+      "sha256": "2ddacc4ad4176d9d24205d8b29b9a7f9b64be234884fef0a175f1e71ae5e204a",
+      "size": 17523352,
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-9208-8246-babd-43adb250dffd/raw?se=2026-10-20T03%3A43%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=eddbd1ca-2793-5b43-ab67-6056a43a8334&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A52%3A11Z&ske=2026-10-20T21%3A52%3A11Z&sks=b&skv=2026-02-06&sig=7XR6dOrhdX9b9eq%2BmVIVDzsuhd0FKnmhp5qScMvxSSw%3D",
+      "title": "SSE_2025-26_Annual_Report.pdf"
+    }
+  ],
+  "count": 10
 }
