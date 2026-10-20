@@ -33,70 +33,70 @@
       "path": "corpus/annual_reports/01_Energy/DCC/DCC_2024-25_Annual_Report.pdf",
       "sha256": "3d1ecac5c839b2bdb9a51205721c564ef7c3911f30d9d7466ea641de5f4dee13",
       "size": 8785889,
-      "url": "https://sdmntprcentralus.oaiusercontent.com/files/00000000-4668-81f5-92b6-a83173f3b420/raw?se=2026-10-20T03%3A44%3A29Z&sp=r&sv=2026-02-06&sr=b&scid=b2d45bc1-217a-5e0c-b8fb-bc921b6e7cdf&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A06%3A25Z&ske=2026-10-20T23%3A06%3A25Z&sks=b&skv=2026-02-06&sig=qWu4rN8w1w3shtzo8NQZW4t6qPR5HHfN7/yYzvq9EmQ%3D",
+      "url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-9e84-820a-a9e8-4416375de399/raw?se=2026-10-20T03%3A52%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=6bf82670-8a22-5d3e-adbd-0bab026d2921&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-20T03%3A19%3A10Z&ske=2026-10-21T03%3A19%3A10Z&sks=b&skv=2026-02-06&sig=AJUf/5IjuFvDNGd8RJMPmhsjqbwBouGSnCS1RYYkLCg%3D",
       "title": "DCC_2024-25_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/DCC/DCC_2025-26_Annual_Report.pdf",
       "sha256": "cd0f48bc73df2b5263709a3065e347ae9709ce31f47172b9a3d13e54e0a65dfc",
       "size": 12274351,
-      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-f044-8246-a603-ef8c58b6ae66/raw?se=2026-10-20T03%3A44%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=c3ab7112-97bb-55ee-9614-644b0688819d&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A06%3A34Z&ske=2026-10-20T23%3A06%3A34Z&sks=b&skv=2026-02-06&sig=DAsJZk2nIQ5Bs7GwmjVWdwwgJ34aMFeqbDs0e/qD038%3D",
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8b48-81f4-8bc0-1ed45a83967d/raw?se=2026-10-20T03%3A52%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=83c348d3-5ae0-5a4f-b415-5eaf877f7e42&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-20T03%3A19%3A10Z&ske=2026-10-21T03%3A19%3A10Z&sks=b&skv=2026-02-06&sig=rAPti3/dFgCCf9mv%2BkuWSenjzX/kZn%2BH7CJ/wiz6Qy8%3D",
       "title": "DCC_2025-26_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/Drax/Drax_2024_Annual_Report.pdf",
       "sha256": "3e08b75aa66ca2ea3f6bddf8e510740e44416bcb21db08c8391bdfd868bc20ab",
       "size": 8094865,
-      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-2150-81f4-a719-9d266b13f226/raw?se=2026-10-20T03%3A44%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=eff0a530-41d4-55ff-8893-5e9f786e1eae&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A06%3A34Z&ske=2026-10-20T23%3A06%3A34Z&sks=b&skv=2026-02-06&sig=JkVoZyfc16TVq3NQ0X9AujXJItY%2BLbSo95Ms/%2BsAL70%3D",
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-7350-8243-9508-96c900c74092/raw?se=2026-10-20T03%3A52%3A49Z&sp=r&sv=2026-02-06&sr=b&scid=a01f86cb-6f34-5e7a-a102-4fc8e25fb2f5&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A21Z&ske=2026-10-20T23%3A08%3A21Z&sks=b&skv=2026-02-06&sig=753k15JS65Oqod0%2B6qvBHH6x98rSBJFkue0iFy3MyT8%3D",
       "title": "Drax_2024_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/Drax/Drax_2025_Annual_Report.pdf",
       "sha256": "6a2d151d90d75030d071a0b3eabe4102823a40d371ce6b2f3282db7402d6fcc3",
       "size": 9434504,
-      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7cb0-81f4-8540-5848c7643e17/raw?se=2026-10-20T03%3A44%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=f09c1a25-5686-5d30-b5b2-76bff4a42361&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A55%3A56Z&ske=2026-10-20T22%3A55%3A56Z&sks=b&skv=2026-02-06&sig=iiKhNR1QF8WWw3ArfuJKviWtJ/2ATovx/7pnocDTD/s%3D",
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-1af8-81f4-985d-bf7fe0152f64/raw?se=2026-10-20T03%3A52%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=9cd6f60b-adcf-5bd9-a7d8-70283c1edbf9&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A34Z&ske=2026-10-20T23%3A08%3A34Z&sks=b&skv=2026-02-06&sig=gJdYAwuXlsL8W%2BKdf9LSR0Jrfs9cTTmv6kl1pyhwM3I%3D",
       "title": "Drax_2025_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/Energean/Energean_2024_Annual_Report.pdf",
       "sha256": "2f2aee2962cdbe7332203e2db07c3614125134ce58620c236a2e52abcb069bba",
       "size": 11260637,
-      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-ff4c-8243-937d-1a486c713dfc/raw?se=2026-10-20T03%3A44%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=55d3ba91-aea2-5063-b8e6-dd74cfbed4ae&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A03Z&ske=2026-10-20T23%3A00%3A03Z&sks=b&skv=2026-02-06&sig=R6TpCzwHkdm5uKyEvGFM/cSxhopHfpLsLtbKJMS6w6o%3D",
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-c4ec-8246-b21e-0e843a24b01a/raw?se=2026-10-20T03%3A52%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=f15cf4bb-5d66-5a96-aa9a-90946c933f7b&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A05%3A49Z&ske=2026-10-20T23%3A05%3A49Z&sks=b&skv=2026-02-06&sig=d3Ro21/28%2BvFVo0yWjsde1K7/4f6mJXRLSyRcS2CYvM%3D",
       "title": "Energean_2024_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/Energean/Energean_2025_Annual_Report.pdf",
       "sha256": "c41dcca11f547856eb84ecd99e73f77bbd8edf2b51e604ff60120daa07f2ce3e",
       "size": 16630445,
-      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-6240-8243-93a3-8f0f26b3865c/raw?se=2026-10-20T03%3A44%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=90be307a-7278-58a7-abee-b5e56a77f9a4&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A47%3A51Z&ske=2026-10-20T21%3A47%3A51Z&sks=b&skv=2026-02-06&sig=dKIgF4XwxKtp6uOvH12%2BGC8%2Br8yubKU4FSngifTWhOM%3D",
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-87ec-8246-978a-27003ca073cf/raw?se=2026-10-20T03%3A52%3A50Z&sp=r&sv=2026-02-06&sr=b&scid=c636ce7f-4df8-57d3-91e9-08817acba32c&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A52%3A10Z&ske=2026-10-20T21%3A52%3A10Z&sks=b&skv=2026-02-06&sig=gyhxumjlHkBTTJBVcwpalSrwpKvsD4SWxbwpM1bifOg%3D",
       "title": "Energean_2025_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/HarbourEnergy/HarbourEnergy_2024_Annual_Report.pdf",
       "sha256": "93fdb75b647a62454047c7011876f6ec65ec5f26ac1fceece6d3b56baee8dfea",
       "size": 7946723,
-      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-2094-8246-bcf2-69d936af7341/raw?se=2026-10-20T03%3A44%3A30Z&sp=r&sv=2026-02-06&sr=b&scid=6b60e140-252b-590f-a73e-d688bd82ee6e&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T21%3A50%3A01Z&ske=2026-10-20T21%3A50%3A01Z&sks=b&skv=2026-02-06&sig=1/6CUVvodURiFTzk%2BBgcrdcz0tv7ZNPksBCRzh%2Bq0eA%3D",
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-f324-8243-b943-768a8b130935/raw?se=2026-10-20T03%3A52%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=2b678025-718b-5aad-9a19-3bca81a2b696&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A06Z&ske=2026-10-20T23%3A00%3A06Z&sks=b&skv=2026-02-06&sig=ochh7lEFJ%2B682DXpv8OzszJv4wuxjgVYdWM5Dxn67aQ%3D",
       "title": "HarbourEnergy_2024_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/HarbourEnergy/HarbourEnergy_2025_Annual_Report.pdf",
       "sha256": "04f45bdef19e2efcc46ffdaee3a3c21dd0ab51c330afbefa81d67f4263a4017f",
       "size": 6378802,
-      "url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-408c-820a-b3be-3f8280a8750c/raw?se=2026-10-20T03%3A44%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=9b294b38-12ed-5da8-867f-fd8a8f3d34fb&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A00%3A11Z&ske=2026-10-20T23%3A00%3A11Z&sks=b&skv=2026-02-06&sig=tMHO2OuxSQQrK0R5kVU9dAkUKJ8/8cQmz14aNbd0ivg%3D",
+      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-f914-8246-8c12-a79a540ca958/raw?se=2026-10-20T03%3A52%3A43Z&sp=r&sv=2026-02-06&sr=b&scid=6fa13b3e-bf86-57ec-a7ea-a5e35b7f96fc&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A36Z&ske=2026-10-20T23%3A08%3A36Z&sks=b&skv=2026-02-06&sig=iFTiNJoFs/XyQltaQ814Vzb2CkozKW9UNshQWq2FNXE%3D",
       "title": "HarbourEnergy_2025_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/IthacaEnergy/IthacaEnergy_2024_Annual_Report.pdf",
       "sha256": "e96d5b4b9725de2fb76cca10cad434b32b3f7813a6ee6d46391d4cc010c9e78a",
       "size": 8661332,
-      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-0034-81f4-93cc-4b87a49ddbe5/raw?se=2026-10-20T03%3A44%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=bb031527-4475-5e8f-8586-365a68194384&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A08%3A36Z&ske=2026-10-20T23%3A08%3A36Z&sks=b&skv=2026-02-06&sig=b/HATv4X7di20PcawlLZiL7TCbi9jeii4BS9dnQtSmI%3D",
+      "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-f020-81f4-8088-fa02bdc9bd9d/raw?se=2026-10-20T03%3A52%3A43Z&sp=r&sv=2026-02-06&sr=b&scid=48cdc5e1-2a24-5581-9fa7-40efda97ad3b&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A09%3A41Z&ske=2026-10-20T23%3A09%3A41Z&sks=b&skv=2026-02-06&sig=mh2zUQuf%2B5Pe/BW5ew8vdeWBqJ2Zm8hKhqTkcmVFguw%3D",
       "title": "IthacaEnergy_2024_Annual_Report.pdf"
     },
     {
       "path": "corpus/annual_reports/01_Energy/IthacaEnergy/IthacaEnergy_2025_Annual_Report.pdf",
       "sha256": "ece4776d2cfb9608d2ee90ddec046b9e182edc57cbdda31976545b72ffbe275c",
       "size": 10530302,
-      "url": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-eacc-8246-915d-07abcc55b371/raw?se=2026-10-20T03%3A44%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=33449e72-b8dd-5cab-9ad9-7d5192113330&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T22%3A55%3A56Z&ske=2026-10-20T22%3A55%3A56Z&sks=b&skv=2026-02-06&sig=3Ti7OjcqHfeqArqMt4voVgNdKaR8oLTImGhvjH75OfA%3D",
+      "url": "https://sdmntprukwest.oaiusercontent.com/files/00000000-d5bc-8243-b26f-cd7acc4d1392/raw?se=2026-10-20T03%3A52%3A43Z&sp=r&sv=2026-02-06&sr=b&scid=04582883-952c-5e63-865f-3e957307b459&skoid=5c9dda00-298b-4376-81e9-b4568c8a3c0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-19T23%3A06%3A25Z&ske=2026-10-20T23%3A06%3A25Z&sks=b&skv=2026-02-06&sig=%2B/F8XxlauUXBcVtuklGFS9mNU3YNKfOHg5/bpCGWZIU%3D",
       "title": "IthacaEnergy_2025_Annual_Report.pdf"
     },
     {
@@ -563,5 +563,5 @@
     }
   ],
   "count": 80,
-  "refreshed_at": "2026-10-20T03:47:24.418Z"
+  "refreshed_at": "2026-10-20T03:47:52.425Z"
 }
