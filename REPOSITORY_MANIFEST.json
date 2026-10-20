@@ -5,10 +5,19 @@
   "firms": 40,
   "reports": 80,
   "cfcqi_decisions": 960,
-  "repo_version": "1.0.0",
+  "repo_version": "1.1.0",
   "corpus_included": false,
-  "corpus_strategy": "manifest + SHA-256 verification records; source PDFs kept outside GitHub",
+  "corpus_strategy": "80-report manifest + SHA-256 verification records are live; the 1.00 GB PDF bytes require a separate Git/LFS transfer",
   "analysis_frozen": true,
-  "scope": "technical implementation, verified corpus, datasets, evidence, analysis, results and reproducibility documentation",
-  "excluded": "assessment and Word submission documents"
+  "reproducibility_ci": "PASS",
+  "deliverables_included": [
+    "browser-readable final dissertation",
+    "technical implementation report",
+    "supervisor feedback resolution",
+    "exceptional-band audit",
+    "reference verification",
+    "student defence notes"
+  ],
+  "scope": "technical implementation, verified source-corpus records, datasets, evidence, analysis, results, reproducibility documentation and final research records",
+  "excluded": "issuer-owned annual-report PDF bytes and metadata-bearing Word submission binaries"
 }
