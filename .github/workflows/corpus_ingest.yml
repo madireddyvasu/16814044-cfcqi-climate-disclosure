@@ -74,6 +74,7 @@ jobs:
 
       - name: Run repository corpus verifier
         run: |
+          python3 -m pip install --quiet pandas
           python3 scripts/verify_corpus.py
 
       - name: Update repository status and remove temporary ingest material
