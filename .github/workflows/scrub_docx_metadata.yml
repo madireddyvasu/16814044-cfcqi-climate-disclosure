@@ -1,0 +1,116 @@
+name: One-time DOCX metadata scrub
+
+on:
+  push:
+    paths:
+      - '.github/workflows/scrub_docx_metadata.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  scrub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Remove hidden Office metadata from research DOCX files
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import os, zipfile
+          import xml.etree.ElementTree as ET
+
+          NS = {
+              "cp": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties",
+              "dc": "http://purl.org/dc/elements/1.1/",
+              "dcterms": "http://purl.org/dc/terms/",
+              "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
+          }
+
+          remove_core = {
+              f"{{{NS['dc']}}}creator",
+              f"{{{NS['dc']}}}title",
+              f"{{{NS['dc']}}}subject",
+              f"{{{NS['dc']}}}description",
+              f"{{{NS['cp']}}}keywords",
+              f"{{{NS['cp']}}}lastModifiedBy",
+              f"{{{NS['cp']}}}revision",
+              f"{{{NS['cp']}}}category",
+              f"{{{NS['cp']}}}contentStatus",
+              f"{{{NS['cp']}}}lastPrinted",
+              f"{{{NS['dcterms']}}}created",
+              f"{{{NS['dcterms']}}}modified",
+          }
+
+          changed = []
+          for path in sorted(Path("deliverables").rglob("*.docx")):
+              tmp = path.with_suffix(path.suffix + ".tmp")
+              did_change = False
+              with zipfile.ZipFile(path, "r") as zin, zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zout:
+                  for item in zin.infolist():
+                      data = zin.read(item.filename)
+                      if item.filename == "docProps/core.xml":
+                          root = ET.fromstring(data)
+                          before = ET.tostring(root, encoding="utf-8")
+                          for child in list(root):
+                              if child.tag in remove_core:
+                                  root.remove(child)
+                          data = ET.tostring(root, encoding="utf-8", xml_declaration=True)
+                          did_change |= (data != before)
+                      elif item.filename == "word/settings.xml":
+                          root = ET.fromstring(data)
+                          before = ET.tostring(root, encoding="utf-8")
+                          for child in list(root):
+                              if child.tag == f"{{{NS['w']}}}rsids":
+                                  root.remove(child)
+                          data = ET.tostring(root, encoding="utf-8", xml_declaration=True)
+                          did_change |= (data != before)
+                      zout.writestr(item, data)
+              if did_change:
+                  os.replace(tmp, path)
+                  changed.append(str(path))
+              else:
+                  tmp.unlink(missing_ok=True)
+
+          print("DOCX files scrubbed:", len(changed))
+          for p in changed:
+              print(" -", p)
+
+          # Validation: no creator/lastModifiedBy and no settings rsids remain.
+          failures = []
+          for path in sorted(Path("deliverables").rglob("*.docx")):
+              with zipfile.ZipFile(path, "r") as z:
+                  if "docProps/core.xml" in z.namelist():
+                      root = ET.fromstring(z.read("docProps/core.xml"))
+                      for child in root:
+                          if child.tag in {
+                              f"{{{NS['dc']}}}creator",
+                              f"{{{NS['cp']}}}lastModifiedBy",
+                              f"{{{NS['dc']}}}description",
+                          }:
+                              failures.append(f"{path}: residual core metadata {child.tag}")
+                  if "word/settings.xml" in z.namelist():
+                      root = ET.fromstring(z.read("word/settings.xml"))
+                      if any(child.tag == f"{{{NS['w']}}}rsids" for child in root):
+                          failures.append(f"{path}: residual rsids")
+          if failures:
+              raise SystemExit("\n".join(failures))
+          print("DOCX_METADATA_AUDIT: PASS")
+          PY
+
+      - name: Commit scrubbed DOCX binaries
+        shell: bash
+        run: |
+          git config user.name "madireddyvasu"
+          git config user.email "madireddyv@coventry.ac.uk"
+          git add deliverables
+          if git diff --cached --quiet; then
+            echo "No DOCX metadata changes required."
+          else
+            git commit -m "chore: scrub hidden Office metadata from deliverables"
+            git push
+          fi
