@@ -109,9 +109,9 @@ The frozen sample contains **40 climate-sensitive FTSE 350 firms**, grouped as f
 
 Each company contributes **two consecutive reporting cycles**, producing **80 firm-year observations**.
 
-### Complete PDF corpus included
+### Verified PDF corpus tracked with Git LFS
 
-The repository contains the **actual 80 annual-report PDFs** under:
+The repository tracks all **80 annual-report PDF paths through Git LFS** under:
 
 ```text
 corpus/annual_reports/
@@ -131,6 +131,8 @@ The final corpus verification produced:
 | Corpus verification | **PASS** |
 
 The 80 files total approximately **1.00 GB**. Because of their size they should be tracked with **Git Large File Storage (Git LFS)**.
+
+> **LFS delivery note:** Git stores small pointer files in the ordinary repository history. After cloning, run `git lfs pull` and then `python scripts/verify_corpus.py` to confirm that the 80 binary objects are available and match the frozen SHA-256 manifest. The source corpus used for analysis was verified 80/80 before repository packaging.
 
 Run:
 
@@ -414,7 +416,7 @@ Therefore, there is no evidence of a systematic overall increase in CFCQI across
 ├── corpus/
 │   ├── CORPUS_MANIFEST.csv      # 80-record source manifest
 │   ├── CORPUS_VERIFICATION.json # hash audit
-│   └── annual_reports/          # actual 80 PDFs
+│   └── annual_reports/          # 80 Git LFS-tracked annual-report paths
 ├── results/
 │   ├── tables/                  # RQ1/RQ2/RQ3 + diagnostics/robustness
 │   └── figures/                 # dissertation-quality figures
@@ -570,7 +572,7 @@ The annual reports remain copyright of their respective issuers and are retained
 
 - 40 firms
 - 80 verified annual reports
-- 80/80 PDFs physically present
+- 80/80 PDF paths tracked in Git LFS; source binaries were hash-verified against the frozen manifest
 - 80/80 SHA-256 hashes verified
 - 960 item decisions
 - final analytical dataset locked
