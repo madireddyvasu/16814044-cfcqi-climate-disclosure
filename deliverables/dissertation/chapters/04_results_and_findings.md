@@ -8,7 +8,7 @@ This chapter reports results from the locked dataset: data quality and reliabili
 
 The final dataset contains 80 firm-years from 40 firms: 10 Energy, 9 Transportation, 11 Materials and Buildings, and 10 Agriculture, Food and Forest Products firms, with two cycles per firm and no missing CFCQI items or model variables. All 960 item decisions were valid, raw scores reconciled to item totals and CFCQI formulas, and all 80 source reports had unique hashes.
 
-The blind 12-report second-pass scoring check produced 66.7% exact agreement and pooled weighted Cohen’s κ = 0.631, above the pre-specified 0.60 threshold. Item-level κ ranged from −0.286 (current financial performance) to 0.757 (asset valuation/impairment), with several other weak items. Appendix C reports the full table. Aggregate reliability is acceptable, but individual boundary judgements require caution.
+The 12-report repeat-scoring check produced 66.7% exact agreement and pooled weighted Cohen’s κ = 0.631, above the pre-specified 0.60 threshold. Item-level κ ranged from −0.286 (current financial performance) to 0.757 (asset valuation/impairment), with several other weak items. Appendix C reports the full table. Aggregate reliability is acceptable, but individual boundary judgements require caution.
 
 ## 4.3 CFCQI Descriptive Results
 
