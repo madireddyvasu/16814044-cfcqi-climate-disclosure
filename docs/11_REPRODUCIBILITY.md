@@ -25,4 +25,4 @@ The pipeline reads the frozen input files in `data/input/`, recomputes CFCQI, re
 - zero score/formula mismatches
 - `all_pass: true`
 
-The annual-report PDFs are not required to rerun the statistics because the evidence-backed numeric input is frozen. They are required for source-level audit and should be added to `corpus/annual_reports/` via Git LFS.
+The annual-report PDFs are not required to rerun the statistics because the evidence-backed numeric input is frozen. The complete 80-report source corpus is included under `corpus/annual_reports/` via Git LFS for source-level audit.
