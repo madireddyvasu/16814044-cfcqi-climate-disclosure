@@ -104,11 +104,11 @@ The null conclusion remains unchanged when excluding Mobico, Tesco, or both.
 
 ## Reliability
 
-A genuine 15% blind re-code was available for **12 reports / 144 item decisions**.
+A 15% repeat-scoring reliability audit covered **12 reports / 144 item decisions**.
 
 - Exact agreement: **66.7%**.
 - Pooled weighted Cohen's κ: **0.631**.
-- The pre-set overall κ threshold of 0.60 is met.
+- The reported overall κ exceeds 0.60, while item-level reliability remains uneven and is treated as a limitation.
 
 However, reliability is not uniformly strong across all 12 items. Item-level weighted κ values vary substantially, including weak or negative values for some current-period financial-effect items. The mean item-level κ is approximately **0.306** and median approximately **0.36**. Total-score agreement is moderate rather than excellent (Pearson r ≈ **0.502**, Spearman r ≈ **0.477**; mean absolute CFCQI difference ≈ **10.76** points).
 
