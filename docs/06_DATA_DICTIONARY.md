@@ -1,17 +1,17 @@
 # Data Dictionary — `data/processed/cfcqi_dataset.csv`
 
 **Grain:** one row per firm–report–year (unit of analysis). 80 rows: 40 firms × 2 reporting cycles.
-**Produced by:** `scripts/01_validate_and_compute.py` from `data/interim/coding.csv` (validation: all item columns ∈ {0,1,2}; no missing firm_id).
-**Codebook:** `docs/CFCQI_Codebook.md` (frozen v1.0).
+**Produced by:** `scripts/01_validate_and_compute.py` from the frozen scoring input `data/input/coding_locked.csv` (validation: all item columns ∈ {0,1,2}; no missing firm ID).
+**Codebook:** `docs/04_CFCQI_CODEBOOK.md` (frozen scoring framework).
 
 ## Identifiers and design
 
 | Column | Definition | Values / unit | Source |
 |---|---|---|---|
-| `firm_id` | Unique firm code | F001–F040 | `docs/SAMPLE_SELECTION.md`, `data/sample_register.csv` |
+| `firm_id` | Unique firm code | F001–F040 | `docs/05_SAMPLE_SELECTION.md`, `data/source_register/sample_register.csv` |
 | `firm_name` | Legal/group name as listed | text | FTSE 350 constituent list (LSE), frozen 2026-10-07 |
 | `tcfd_group` | TCFD non-financial group | Energy / Transportation / Materials and Buildings / Agriculture Food and Forest Products | Researcher mapping (see `docs/SAMPLE_SELECTION.md` §3; Transportation n=9, Materials n=11 — documented rebalancing) |
-| `cycle` | Reporting cycle | T = most recent annual report available at data cut-off; T1 = prior consecutive annual report | `data/sample_register.csv` (report_T / report_T1 columns) |
+| `cycle` | Reporting cycle | T = most recent annual report available at data cut-off; T1 = prior consecutive annual report | `data/source_register/sample_register.csv` (report_T / report_T1 columns) |
 
 ## CFCQI items (content-analysis coding)
 
@@ -20,7 +20,7 @@ Each item scored on the fixed 0–2 scale from the frozen codebook:
 - **1** = qualitative or generic financial connection (mentioned, not quantified)
 - **2** = quantified financial effect (£ figure, %, or specific link to a financial-statement item, assumption, budget or planning process)
 
-Tie-breaks (codebook §2): higher score wins when both qualitative and quantified statements exist; carbon-emissions volume (tCO₂e) alone with no £ implication = 0; explicit "no material impact" on a specific item = 1. Every score carries a verbatim quote + printed page number in `data/interim/evidence/<firm_id>_<cycle>.md`.
+Tie-breaks (codebook §2): higher score wins when both qualitative and quantified statements exist; carbon-emissions volume (tCO₂e) alone with no £ implication = 0; explicit "no material impact" on a specific item = 1. Every score carries a verbatim quote + printed page number in `evidence/<firm_id>_<cycle>.md`.
 
 | Column | Item label | What counts |
 |---|---|---|
@@ -44,9 +44,9 @@ Tie-breaks (codebook §2): higher score wins when both qualitative and quantifie
 | `size` | Firm size | ln(total assets in £m) | Consolidated balance sheet. **FX rule:** non-GBP reporters converted at the ECB euro foreign-exchange reference rate on the balance-sheet date; rate + date recorded per row in `notes` and evidence files (e.g. USD→GBP 0.74264 @ 31 Dec 2025; EUR→GBP 0.87260 @ 31 Dec 2025; Diageo 0.75587 @ 29 Jun 2026). ECB rates were not independently re-verified — cite ECB directly in the dissertation. |
 | `assurance` | External sustainability assurance obtained | 1 / 0 (binary) | 1 = independent assurance over sustainability/environmental subject matter (limited or reasonable, even on selected metrics only); statutory financial-statement audit alone = 0. Evidence quote in evidence file. |
 | `board_oversight` | Board-level sustainability/climate oversight | 1 / 0 (binary) | 1 = dedicated board-level committee OR named board committee with an explicit sustainability/climate/environment remit; 0 = full-board oversight only, or management-level committees only. Committee name + remit quoted in evidence file. |
-| `leverage` | Financial leverage | ratio (total debt / total assets) | **Supervisor ruling 2026-10-07** (`docs/decision_log.md` R1): total debt = current + non-current interest-bearing borrowings **including bank overdrafts**; lease liabilities excluded where separately disclosed (included only where inseparable from the borrowings line — F015 Wizz Air, documented). Components shown per row in evidence files. |
+| `leverage` | Financial leverage | ratio (total debt / total assets) | **Supervisor ruling 2026-10-07** (`data/audit/decision_log.md` R1): total debt = current + non-current interest-bearing borrowings **including bank overdrafts**; lease liabilities excluded where separately disclosed (included only where inseparable from the borrowings line — F015 Wizz Air, documented). Components shown per row in evidence files. |
 | `roa` | Profitability | ratio (net income attributable to owners / total assets) | Income statement + balance sheet. Negative where the firm reported a loss. |
-| `coder` | Coder identifier | coderA–coderK, coderM, pilot | Which coder produced the row (audit trail). 15% blind re-code performed by an independent coder — see `data/interim/reliability_recode.csv`, `results/tables/reliability.csv`. |
+| `coder` | Coder identifier | coderA–coderK, coderM, pilot | Which coder produced the row (audit trail). Audit field identifying the documented scoring workflow. A 12-report (15%) repeat-scoring stability check is retained in `data/input/reliability_recode.csv` and `results/tables/reliability.csv`; the repository does not claim human inter-coder independence unless separately evidenced. |
 | `notes` | Row-level caveats | free text | FX rates/dates, debt components, year-end changes (F019 15-month T), cross-report discrepancies, MISSING flags (none remaining). |
 
 ## Computed outcome
@@ -62,6 +62,6 @@ Tie-breaks (codebook §2): higher score wins when both qualitative and quantifie
 
 1. **F019 (Mobico) T** is a 15-month period to 31 Mar 2026 (year-end change Dec→Mar); figures used as reported, not annualised. Sensitivity analysis excluding F019: `results/tables/robustness.txt`.
 2. **F027 (Smiths Group):** FY2026 AR unpublished at data cut-off → T=FY2025, T1=FY2024 (two most recent consecutive ARs available).
-3. **F035 (M&S) T/T1** were first coded from partial PDFs (strategic report missing); invalidated and fully re-coded from complete reports on 2026-10-07 (coderM). Originals preserved as `data/raw/F035_*_partial_ORIGINAL.pdf`; source deviation (mirror access, figure cross-verification) logged in `docs/decision_log.md` R2.
+3. **F035 (M&S) T/T1** were first coded from partial PDFs (strategic report missing); invalidated and fully re-coded from complete reports on 2026-10-07 (coderM). Originals preserved as `the source-validation audit trail`; source deviation (mirror access, figure cross-verification) logged in `data/audit/decision_log.md` R2.
 4. **Transportation n=9 / Materials n=11:** only 9 FTSE 350 firms mappable to TCFD Transportation; 10th slot reallocated to Materials (see `docs/SAMPLE_SELECTION.md` §5).
 5. F015 (Wizz Air) leverage includes lease liabilities (inseparable from reported borrowings line) — documented exception to the leases-excluded convention.
