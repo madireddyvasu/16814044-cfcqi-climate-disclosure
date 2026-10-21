@@ -44,7 +44,7 @@ Pooled Ordinary Least Squares (OLS) estimates CFCQI as the dependent variable. B
 
 # Reliability
 
-Twelve reports (15% of the corpus) were blindly re-scored through a separate scoring workflow. Exact agreement was 66.7% and pooled weighted Cohen’s kappa was 0.631. Item-level agreement varied, so the dissertation treats reliability as acceptable overall but not uniformly strong. The exercise is presented as a scoring-stability/reproducibility check, not as proof of human inter-coder agreement.
+Twelve reports (15% of the corpus) were repeat-scored through a separate scoring workflow that did not use the first-pass scores. Exact agreement was 66.7% and pooled weighted Cohen’s kappa was 0.631. Item-level agreement varied, so the dissertation treats reliability as acceptable overall but not uniformly strong. The exercise is presented as a scoring-stability/reproducibility check, not as proof of human inter-coder agreement.
 
 # RQ1 result
 
