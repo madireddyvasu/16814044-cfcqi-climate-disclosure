@@ -20,7 +20,7 @@
 
 The technical implementation is complete and reproducible. The final corpus contains 80 verified consolidated group annual reports from 40 climate-sensitive FTSE 350 firms, with two consecutive reporting cycles per firm. Every annual report has a unique SHA-256 hash and all requested reports were publicly available by the report-eligibility cut-off of 31 August 2026. The final supervisor-reviewed sampling frame was frozen on 7 October 2026 using FTSE 350 membership and market-cap ranking; this timing distinction is retained explicitly in the audit trail rather than being concealed.
 
-All 80 firm-years were coded using the frozen 12-item CFCQI instrument, producing 960 item-level decisions. The final mean CFCQI is 51.77 (SD 18.65). The pooled weighted Cohen’s kappa from the 15% blind recode is 0.631; this clears the pre-specified overall threshold, although item-level agreement is uneven and is treated as a methodological limitation.
+All 80 firm-years were coded using the frozen 12-item CFCQI instrument, producing 960 item-level decisions. The final mean CFCQI is 51.77 (SD 18.65). The pooled weighted Cohen’s kappa from the 15% repeat-scoring check is 0.631; this clears the pre-specified overall threshold, although item-level agreement is uneven and is treated as a methodological limitation.
 
 The pooled RQ2 model explains 47.8% of CFCQI variation. Firm size is positively associated with CFCQI in the primary pooled model (p=0.018), external assurance is not statistically significant (p=0.185), and qualifying board-level sustainability/climate oversight has the largest positive association (approximately +23.8 CFCQI points, p\<0.001). The board-oversight result remains strong under all sensitivity checks. The size result remains positive but weakens to p=0.077 in the latest-cycle-only HC3 model, so it should be described as supported in the primary model but somewhat sample-size-sensitive.
 
@@ -32,7 +32,7 @@ For RQ3, the corrected change definition is Latest (T) minus Prior (T1). The mea
 
 # 2. Research Design and Analytical Architecture
 
-The project uses secondary quantitative research with structured manual content analysis of corporate annual reports. The unit of analysis is the firm-report-year. The workflow combines an auditable Excel evidence layer with Python-based validation and statistical analysis.
+The project uses secondary quantitative research using deductive quantitative content analysis of corporate annual reports. The unit of analysis is the firm-report-year. The workflow combines an auditable Excel evidence layer with Python-based validation and statistical analysis.
 
 - 40 sampled non-financial FTSE 350 firms mapped to four TCFD climate-sensitive groups.
 
@@ -128,7 +128,7 @@ All automated final validation checks passed.
 
 # 8. Reliability Assessment
 
-Twelve reports (15% of the corpus) were blindly re-coded. Across 144 item comparisons, exact agreement was 66.7% and pooled weighted Cohen’s κ was 0.631. The pre-set overall κ threshold of 0.60 was therefore met.
+Twelve reports (15% of the corpus) were repeat-scored using the documented stability-check workflow. Across 144 item comparisons, exact agreement was 66.7% and pooled weighted Cohen’s κ was 0.631. The pre-set overall κ threshold of 0.60 was therefore met.
 
 However, reliability is not uniform across the instrument. Mean item-level κ was 0.306 and median item-level κ was 0.359; several individual items have weak or negative κ values. On the 12 re-coded reports, the correlation between original and re-coded total CFCQI was moderate (Pearson r=0.502), and the mean absolute total-score difference was 10.76 CFCQI points. These diagnostics should be acknowledged in the methodology/limitations rather than relying only on the pooled κ.
 
