@@ -77,7 +77,7 @@ For reporting-cycle change, ΔCFCQI is defined as Latest (T) − Prior (T1). Nor
 
 ## 3.8 Reliability, Validity and Reproducibility
 
-A blind second-pass scoring exercise covered 12 reports (15% of the corpus) using a separate workflow that had not produced their first-pass scores. It is treated as a scoring-stability check, not proof of human inter-coder agreement. Exact agreement and weighted Cohen’s kappa assess the ordinal 0–2 scores (Cohen, 1968; Milne & Adler, 1999). Content and construct validity are supported by predefined financially connected disclosure concepts and evidence requirements. Criterion validity is not claimed because no accepted external benchmark exists. Page-level evidence, hashes, decision logs, locked datasets and automated checks strengthen reproducibility.
+A separate repeat-scoring exercise covered 12 reports (15% of the corpus) using a workflow that had not produced their first-pass scores. It is treated as a scoring-stability check, not proof of human inter-coder agreement. Exact agreement and weighted Cohen’s kappa assess the ordinal 0–2 scores (Cohen, 1968; Milne & Adler, 1999). Content and construct validity are supported by predefined financially connected disclosure concepts and evidence requirements. Criterion validity is not claimed because no accepted external benchmark exists. Page-level evidence, hashes, decision logs, locked datasets and automated checks strengthen reproducibility.
 
 ## 3.9 Ethics and Responsible Data Use
 
