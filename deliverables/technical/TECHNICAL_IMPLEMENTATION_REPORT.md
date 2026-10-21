@@ -26,7 +26,7 @@ The pooled RQ2 model explains 47.8% of CFCQI variation. Firm size is positively 
 
 For RQ3, the corrected change definition is Latest (T) minus Prior (T1). The mean change is effectively zero, the median change is zero, and the Wilcoxon signed-rank test is non-significant (p=0.896). Excluding Mobico, Tesco, or both does not alter that conclusion.
 
-<img src="media/image1.png" style="width:6.1in;height:3.92143in" />
+<img src="../../results/figures/01_cfcqi_distribution.png" style="width:6.1in;height:3.92143in" />
 
 *Figure 1. Distribution of CFCQI across the 80 firm-year observations.*
 
@@ -161,7 +161,7 @@ Across all 80 firm-years, mean CFCQI is 51.77, median 54.20, SD 18.65, range 16.
 
 Energy has the highest mean CFCQI (62.91), followed by Materials and Buildings (49.80), Transportation (48.38), and Agriculture/Food/Forest Products (45.82). These are descriptive comparisons and should not be interpreted as causal sector effects.
 
-<img src="media/image2.png" style="width:6.2in;height:3.72in" />
+<img src="../../results/figures/02_cfcqi_by_sector.png" style="width:6.2in;height:3.72in" />
 
 *Figure 2. Mean CFCQI by TCFD group.*
 
@@ -182,7 +182,7 @@ At item level, financial-planning integration, quantified scenario analysis, and
 | Current financial performance            | 0.44           | 68.8          | 18.8          | 12.5          |
 | Current financial position               | 0.34           | 77.5          | 11.2          | 11.2          |
 
-<img src="media/image3.png" style="width:6.5in;height:3.84091in" />
+<img src="../../results/figures/04_item_heatmap.png" style="width:6.5in;height:3.84091in" />
 
 *Figure 3. Mean item scores by sector and reporting cycle.*
 
@@ -202,7 +202,7 @@ The model R² is 0.478 (adjusted R² 0.410). H1 is supported in the primary pool
 
 ROA is also positive and statistically significant at the 5% level in the primary specification (p=0.042). Energy has a higher adjusted CFCQI than the Agriculture/Food/Forest reference group (p=0.040). These control/sector results should be treated as secondary to the pre-specified hypotheses.
 
-<img src="media/image4.png" style="width:6.2in;height:3.98571in" />
+<img src="../../results/figures/06_regression_coefficients.png" style="width:6.2in;height:3.98571in" />
 
 *Figure 4. Primary RQ2 coefficients and 95% confidence intervals.*
 
@@ -236,13 +236,13 @@ Change is defined as Latest (T) minus Prior (T1). Across the 40 firms, mean chan
 
 The null conclusion remains after excluding Mobico (15-month latest period), Tesco (53-week latest period), or both.
 
-<img src="media/image5.png" style="width:5.5in;height:5.02586in" />
+<img src="../../results/figures/03_paired_prior_latest.png" style="width:5.5in;height:5.02586in" />
 
 *Figure 5. Prior vs latest CFCQI for each firm.*
 
 Item-level movements are small and predominantly unchanged. Current financial performance, position and cash-flow items each improve by approximately 0.075 points on average; asset valuations/impairment declines by 0.10 points. These movements do not amount to a systematic overall shift in CFCQI.
 
-<img src="media/image6.png" style="width:6.4in;height:4.8in" />
+<img src="../../results/figures/05_item_change.png" style="width:6.4in;height:4.8in" />
 
 *Figure 6. Mean item-level change (Latest − Prior).*
 
