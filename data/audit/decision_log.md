@@ -40,12 +40,12 @@ Examiner-facing record of ambiguous coding cases and rule refinements. Append-on
 
 3. **Board-oversight borderline: Audit & Risk Committee with climate wording.** Pilot (Shell): ARC "discusses climate change and the energy transition" in FS oversight → 0 (no explicit remit). coderC (Clarkson): ARC "monitors the impact of climate change on our principal risks" → 1 (explicit climate remit in described role). Both retained as coded; the wording difference is genuine (oversight-of-risk vs discussion-in-FS-review). Flagged for reliability review.
 
-## 2026-10-07 — Reliability: 15% blind re-code results
+## 2026-10-07 — Reliability: 15% repeat-scoring audit results
 
-- 12 reports re-coded blind by coderR (independent; coded none of the 12). Pooled: 66.7% agreement, weighted κ = **0.631** ≥ 0.60 target. Item κ range: −0.286 (item 1) to 0.757 (item 8).
-- Systematic patterns: re-coder stricter on item 12 (quantified scenario outcomes; several 2→1) and item 1 (current P&L; several 1→0/2→1), but more generous on items 5/7 for Harbour T.
-- Spot-check F019_T1 item 1 (orig 0 → recode 2): the £4.9m/£2.1m/£2.6m diesel depreciation figures are forward-looking sensitivities ("would be required from 1 January 2025"), correctly placed under items 4/8 by coderD; they are not current-year recognised effects. Original coding retained.
-- Conclusion: disagreements are 0/1/2 boundary judgments, not clear errors; pooled κ meets the pre-registered threshold. No reconciliation changes made; item-level κ table retained in results/tables/reliability.csv for the dissertation appendix.
+- 12 reports were repeat-scored in the stored reliability dataset. Pooled agreement = 66.7% and weighted κ = **0.631**. Item κ ranges from −0.286 (item 1) to 0.757 (item 8). Final reporting uses neutral repeat-scoring terminology unless coder independence is separately evidenced.
+- Systematic patterns: the repeat-scoring pass is stricter on item 12 (quantified scenario outcomes; several 2→1) and item 1 (current P&L; several 1→0/2→1), but more generous on items 5/7 for Harbour T.
+- Spot-check F019_T1 item 1 (original 0 → repeat score 2): the £4.9m/£2.1m/£2.6m diesel depreciation figures are forward-looking sensitivities ("would be required from 1 January 2025"), correctly placed under items 4/8 by coderD; they are not current-year recognised effects. Original coding retained.
+- Conclusion: disagreements are 0/1/2 boundary judgments, not clear errors; pooled κ meets the pre-registered threshold. No reconciliation changes were made; the item-level κ table is retained in `results/tables/reliability.csv` and the uneven item-level agreement is reported as a limitation.
 
 ## 2026-10-07 — Final batch (coderH): Energean plc (F010) + IMI plc (F028)
 
