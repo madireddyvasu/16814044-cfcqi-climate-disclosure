@@ -310,7 +310,7 @@ For reporting-cycle change, ΔCFCQI is defined as Latest (T) − Prior (T1). Nor
 
 ## 3.8 Reliability, Validity and Reproducibility
 
-A blind second-pass scoring exercise covered 12 reports (15% of the corpus) using a separate workflow that had not produced their first-pass scores. It is treated as a scoring-stability check, not proof of human inter-coder agreement. Exact agreement and weighted Cohen’s kappa assess the ordinal 0–2 scores (Cohen, 1968; Milne & Adler, 1999). Content and construct validity are supported by predefined financially connected disclosure concepts and evidence requirements. Criterion validity is not claimed because no accepted external benchmark exists. Page-level evidence, hashes, decision logs, locked datasets and automated checks strengthen reproducibility.
+A separate repeat-scoring exercise covered 12 reports (15% of the corpus) using a workflow that had not produced their first-pass scores. It is treated as a scoring-stability check, not proof of human inter-coder agreement. Exact agreement and weighted Cohen’s kappa assess the ordinal 0–2 scores (Cohen, 1968; Milne & Adler, 1999). Content and construct validity are supported by predefined financially connected disclosure concepts and evidence requirements. Criterion validity is not claimed because no accepted external benchmark exists. Page-level evidence, hashes, decision logs, locked datasets and automated checks strengthen reproducibility.
 
 ## 3.9 Ethics and Responsible Data Use
 
@@ -330,7 +330,7 @@ This chapter reports results from the locked dataset: data quality and reliabili
 
 The final dataset contains 80 firm-years from 40 firms: 10 Energy, 9 Transportation, 11 Materials and Buildings, and 10 Agriculture, Food and Forest Products firms, with two cycles per firm and no missing CFCQI items or model variables. All 960 item decisions were valid, raw scores reconciled to item totals and CFCQI formulas, and all 80 source reports had unique hashes.
 
-The blind 12-report second-pass scoring check produced 66.7% exact agreement and pooled weighted Cohen’s κ = 0.631, above the pre-specified 0.60 threshold. Item-level κ ranged from −0.286 (current financial performance) to 0.757 (asset valuation/impairment), with several other weak items. Appendix C reports the full table. Aggregate reliability is acceptable, but individual boundary judgements require caution.
+The 12-report repeat-scoring check produced 66.7% exact agreement and pooled weighted Cohen’s κ = 0.631, above the pre-specified 0.60 threshold. Item-level κ ranged from −0.286 (current financial performance) to 0.757 (asset valuation/impairment), with several other weak items. Appendix C reports the full table. Aggregate reliability is acceptable, but individual boundary judgements require caution.
 
 ## 4.3 CFCQI Descriptive Results
 
@@ -727,7 +727,7 @@ Appendix F: Technical Reproducibility Summary
 | Firms / observations           | 40 / 80                                                                              |
 | CFCQI item decisions           | 960                                                                                  |
 | Missing model variables        | 0                                                                                    |
-| Pooled blind-recode weighted κ | 0.631                                                                                |
+| Pooled repeat-scoring weighted κ | 0.631                                                                                |
 | Primary RQ2 model              | Pooled OLS; firm-clustered robust SE                                                 |
 | Primary RQ3 test               | Wilcoxon signed-rank                                                                 |
 | Auditable layers               | Source register; codebook; evidence files; locked CSV; Python scripts; Excel outputs |
