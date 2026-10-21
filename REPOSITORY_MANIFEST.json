@@ -10,5 +10,8 @@
   "corpus_strategy": "80 original annual-report PDFs stored under corpus/annual_reports via Git LFS; each file SHA-256 verified against the frozen manifest",
   "analysis_frozen": true,
   "reproducibility_audit": "PASS",
-  "scope": "complete technical implementation, verified 80-report source corpus, datasets, evidence, analysis, results, reproducibility documentation and final research records"
+  "scope": "complete technical implementation, verified 80-report source corpus, datasets, evidence, analysis, results, reproducibility documentation and final research records",
+  "corpus_pointer_files": 80,
+  "corpus_source_verification": "80/80 source PDFs SHA-256 matched before repository packaging",
+  "remote_lfs_binary_state": "Git LFS pointer paths committed; verify binary object availability with git lfs pull + scripts/verify_corpus.py"
 }
